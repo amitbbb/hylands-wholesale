@@ -430,6 +430,12 @@ p.banner__subheading{
         &:nth-child(-n + 2){
           margin-bottom: 30px;
         }
+        &:hover{
+          h4{
+            background: #1b4388;
+            color: #fff;
+          }
+        }
         img{
           border-bottom-left-radius: unset;
           border-bottom-right-radius: unset;
@@ -450,10 +456,6 @@ p.banner__subheading{
           transition: 0.2s ease-in-out;
           color: #1b4388;
           font-family: Gotham;
-          &:hover{
-            background: #1b4388;
-            color: #fff;
-          }
            @media screen and (max-width: 1440px){
              line-height: 20px!important;
            }
@@ -654,6 +656,12 @@ p.banner__subheading{
         }
       }
       a{
+          &:hover{
+            h3{
+              background: #1b4388;
+              color: #fff;
+            }
+          }
         img{
           width: 100%;
           border-radius: 10px;
@@ -686,10 +694,6 @@ p.banner__subheading{
           border-bottom-right-radius: 10px;
           transition: 0.2s ease-in-out;
           font-family: 'Gotham';
-          &:hover{
-            background: #1b4388;
-            color: #fff;
-          }
           @media screen and (max-width: 1024px){
             line-height: 2.08em!important;
           }
@@ -1498,6 +1502,11 @@ p.banner__subheading{
   }
 }
 .adults-landing-templete{
+  .hero-banner-main .hero-banner .hero-text-box{
+    @media screen and (max-width: 1440px){
+      max-width: 550px;
+    }
+  }
   .popular-cards{
     p{
       max-width: 780px;
