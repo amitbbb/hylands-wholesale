@@ -16,11 +16,8 @@
           "settings": {
             "heading": "Find a remedy for every type of sleeplessness.",
             "subheading": "Emotions and worry keeping you up at night? Our Sleep remedy features Ignatia as its hero ingredient to promote comfort and relief from nervousness.",
-            "card_img": "shopify:\/\/shop_images\/1_ae39db08-d0e8-49e2-9695-0c3f28ae6c55.png",
             "shop_all": "SHOP SLEEP",
-            "shop_all_url": "#",
-            "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
-            "tag_name": "WORRY | EMOTIONAL UPSET"
+            "shop_all_url": "#"
           }
         },
         "2fcd3d45-bee0-47c2-8a05-59293c0e6764": {
@@ -28,11 +25,8 @@
           "settings": {
             "heading": "Tried-and-true botanicals to support great rest.",
             "subheading": "Formulated primarily from botanicals, our Rest remedy addresses the all-too-common experience of difficulty falling asleep, regardless of the cause.",
-            "card_img": "shopify:\/\/shop_images\/2_0a9fa770-c134-487d-a815-5b969fdbc13d.png",
             "shop_all": "SHOP REST",
-            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-rest",
-            "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
-            "tag_name": "RESTLESSNESS | IRRITABILITY | ANXIOUSNESS | WAKEFULNESS"
+            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-rest"
           }
         },
         "71574c2e-16e2-485d-9b35-e01b8a384ec9": {
@@ -40,11 +34,8 @@
           "settings": {
             "heading": "Tackle routine cases of sleeplessness.",
             "subheading": "For routine cases, Calms Forte will work quickly to get you back to sleep. It’s our blend of botanicals and minerals formulated to relieve sleeplessness caused by stress and nervous tension.",
-            "card_img": "shopify:\/\/shop_images\/3_68ac5f62-92ee-41c9-aa5c-e1313d8e9f1c.png",
             "shop_all": "SHOP CALMS FORTE",
-            "shop_all_url": "#",
-            "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
-            "tag_name": "STRESS | NERVOUS TENSION"
+            "shop_all_url": "#"
           }
         }
       },

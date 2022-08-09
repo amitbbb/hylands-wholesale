@@ -93,11 +93,51 @@
         "heading": "Our cell salt tablets are made with key minerals to keep you healthy.",
         "subheading": "<p>Each is derived from one of the 12 inorganic mineral compounds that are most important to our cellular health.<\/p><p>By working to stimulate the body’s natural healing mechanisms, cell salts help restore cell functions, bring health to muscle tissue, and balance the body.<\/p>"
       }
+    },
+    "1660053120b89bc689": {
+      "type": "cell-salt-image-with-text",
+      "settings": {
+        "text": "Each quick-dissolving tablet is a convenient remedy to support wellness.",
+        "subheading": "<p>Our tablets are formulated in homeopathic microdoses, making them safe for the whole family, including children two years old and older.<\/p><p>You can even bring wellness on the go! A single dose of any one Hyland’s Cell Salts can be added to your or your child’s water bottle and sipped throughout the day.<\/p>",
+        "img": "shopify:\/\/shop_images\/download_1_ead5b059-a8bc-4a6a-ba60-0145e0dcf2ca.jpg"
+      }
+    },
+    "1660053168dfe9f91e": {
+      "type": "cell-salt-customer",
+      "blocks": {
+        "b8d47c5b-1528-4571-8832-6344624dc024": {
+          "type": "customer",
+          "settings": {
+            "name": "Life changing!",
+            "img": "shopify:\/\/shop_images\/download_7d1fe47b-e5aa-437a-8b09-d27baf729d50.jpg",
+            "text": "<p>I was looking for something to help with the brutal headaches I have. I had realized the connection between dehydration and my headaches. A store employee recommended Bioplasma. For nine out of ten headaches, Bioplasma ends it in a few minutes. I will now use them daily. Thank you<\/p>",
+            "mainname": "<p>Davetta301 on<strong> Bioplasma<\/strong><\/p>"
+          }
+        },
+        "c0b21512-a01e-4487-89bf-e472c4ca92b0": {
+          "type": "customer",
+          "settings": {
+            "name": "Love!",
+            "img": "shopify:\/\/shop_images\/download_7d1fe47b-e5aa-437a-8b09-d27baf729d50.jpg",
+            "text": "<p>I have had a HUGE breakout since December with painful skin eruptions on my chin and nose with no relief no matter what I tried. My friend told me about cell salts and looked it up. I ordered this product and tried the max dosage. Within a week my face was clear! It’s literally a miracle! So happy with this product!<\/p>",
+            "mainname": "<p>Shannonon<strong>Cell Salt #7<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b8d47c5b-1528-4571-8832-6344624dc024",
+        "c0b21512-a01e-4487-89bf-e472c4ca92b0"
+      ],
+      "settings": {
+        "heading": "Customers love our cell salts!"
+      }
     }
   },
   "order": [
     "main",
     "166002976881b13256",
-    "166004344774c96617"
+    "166004344774c96617",
+    "1660053120b89bc689",
+    "1660053168dfe9f91e"
   ]
 }
