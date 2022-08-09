@@ -68,12 +68,16 @@
 }
 .cell-tab_main .cell-tab_main_left .box .acc_txt span {
     width: 100%;
-    font-family: Gotham!important;
+    font-family: Gotham;
     font-weight: 600;
-    font-size: 14px!important;
+    font-size: 14px;
     line-height: 20px;
     letter-spacing: 1.37px;
     color: #1b4388;
     text-transform: uppercase;
     height: 40px;
+}
+
+.cell-tab_main .cell-tab_main_left .box .acc_txt {
+    line-height: 100%;
 }
