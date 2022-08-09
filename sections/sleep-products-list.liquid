@@ -6,14 +6,13 @@
           <h2>{{ block.settings.heading }}</h2>
           <p>{{ block.settings.subheading }}</p>
           <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</a>
-        {% when 'Tags' %}
-        <h3>{{ block.settings.tag_head }}</h3>
-        <p>{{ block.settings.tag_name }}</p>
         </div>
-    	{% when 'card' %}
-        <div class="card-right">
+    	<div class="card-right">
           <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
         </div>
+         {% when 'Tags' %}
+        <h3>{{ block.settings.tag_head }}</h3>
+        <p>{{ block.settings.tag_name }}</p>   
   {% endcase %}
   {% endfor %}
 </div>
