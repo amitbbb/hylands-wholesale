@@ -1,0 +1,13 @@
+{
+  "wrapper": "div.cell-salt-templete",
+  "sections": {
+    "main": {
+      "type": "hero-banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
