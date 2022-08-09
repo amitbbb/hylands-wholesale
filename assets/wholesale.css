@@ -91,3 +91,11 @@
     letter-spacing: normal;
     line-height: normal;
 }
+.cell-tab_main .cell-tab_main_right .cell_tab_text p:not(:first-child) {
+    margin: 20px 0;
+}
+.cell-tab_main .cell-tab_main_right .cell_tab_text p {
+    font-size: 20px;
+    font-family: 'poppins-regular';
+    line-height: normal;
+}
