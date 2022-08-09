@@ -4,34 +4,56 @@
       {% for block in section.blocks %}
       {% if block.settings.text != blank and block.type == celltab %}
       <div class="box">
-          <img src="{{block.settings.img | img_url: 'original'}}">
+        <img src="{{section.settings.img | img_url: 'original' }} "> 
           <div class="acc_txt">
             <span class="acc_txt_txt">{{ block.settings.text }}</span>
           </div>
         </div>
-        </div>
 
-    </div>  
+      {% endif %}
+      {% endfor %}
 
-    <div class="cell-tab_main_right">
-    
-    </div>  
+    </div>
 
   </div>
+
+  <div class="cell-tab_main_right">
+
+  </div>
+
 </div>
+</div>
+
 
 {% schema %}
 {
-  "name": "Cell Tab",
-  "settings:":[],
-  "blocks": [
+"name": "Cell Tab",
+"tag": "section",
+"class": "spaced-section",
+"settings": [],
+"blocks": [
+{
+  "type": "celltab",
+  "name":"celltab",
+  "settings": [
   {
-    "type": "celltab",
-    "name": "celltab",
-    "setings": [
-      "type:"
-    ]
+"type": "image_picker",
+"id": "img",
+"label": "Image Icon"
+},
+{
+  "type": "text",
+  "id": "text",
+  "label": "icon text"
   }
+  
   ]
+}
+],
+"presets": [
+{
+"name": "Cell Tab"
+}
+]
 }
 {% endschema %}
