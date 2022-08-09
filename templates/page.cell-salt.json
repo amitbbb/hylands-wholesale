@@ -4,10 +4,24 @@
     "main": {
       "type": "hero-banner",
       "settings": {
+        "hero_img": "shopify:\/\/shop_images\/download.jpg",
+        "hero_heading": "Explore our signature cell salts.",
+        "hero_sub_heading": "Take a look at what makes cell salts a must-have for your everyday wellness.",
+        "hero_button": "",
+        "hero_btn_url": "",
+        "hero_btn_color": "",
+        "hero_btn_h_color": ""
+      }
+    },
+    "166002976881b13256": {
+      "type": "banner-marquee",
+      "settings": {
+        "marquee": "&nbsp;"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166002976881b13256"
   ]
 }
