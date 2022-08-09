@@ -11,10 +11,6 @@
           <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
         </div>
          {% when 'Tags' %}
-<div class="card-tags">
-        <h3>{{ block.settings.tag_head }}</h3>
-        <p>{{ block.settings.tag_name }}</p>
-</div>
   {% endcase %}
   {% endfor %}
 </div>
@@ -53,14 +49,7 @@
             "type": "text",
             "id": "shop_all_url",
             "label": "Shop Button URL"
-          }      
-      ]
-  },
-  {
-      "type": "Tags",
-      "name": "Tag List",
-      "settings": [
-        {
+          },        {
           "type": "text",
           "id": "tag_head",
           "label": "Tags Heading"
@@ -69,9 +58,9 @@
           "type": "text",
           "id": "tag_name",
           "label": "Tag Name"
-        }
+        }      
       ]
-    }
+  }
   ],
   "presets": [
   {
