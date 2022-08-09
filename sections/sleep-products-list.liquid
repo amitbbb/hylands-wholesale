@@ -1,7 +1,5 @@
+{% for block in section.blocks %}
 <div class="sleep-products-cards-wrapper">
-  {% for block in section.blocks %}
-    {% case block.type %}
-    	{% when 'card' %}
         <div class="card-left">
           <h2>{{ block.settings.heading }}</h2>
           <p>{{ block.settings.subheading }}</p>
@@ -15,10 +13,9 @@
         </div>
     	<div class="card-right">
           <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
-        </div>
-  {% endcase %}
-  {% endfor %}
+      </div>
 </div>
+{% endfor %}
 {% schema %}
 {
   "name": "Sleep Products List",

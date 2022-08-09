@@ -1,13 +1,15 @@
 {% if section.settings.sec_head != blank %}
 <h2>{{section.settings.sec_head}}</h2>
-  {% for block in section.blocks %}
     <div class="c-love-cards">
+      {% for block in section.blocks %}
+      <div class="c-love-wrap">
         <h3>{{ block.settings.card_head }}</h3>
         <img src="{{ block.settings.star_img | img_url: 'master'}}" alt="{{block.settings.card_head}}"/>
         <p class="card_text">{{ block.settings.card_text }}</p>
         <p class="cust_name">{{ block.settings.cust_name }}</p>
+      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
 {% endif %}
 {% schema %}
 {
