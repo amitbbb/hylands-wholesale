@@ -67,10 +67,20 @@
             "card_text": "\"I have anxiety and terrible insomnia. The Hyland's sleep, rest and calm products are so wonderful. They relieve much of my anxiety, bringing a sense of calm and tranquility so that I can actually get some rest.\"",
             "cust_name": "- Decemberstar76 on Sleep"
           }
+        },
+        "c0e4cd70-afd0-4a78-8432-513637550f1c": {
+          "type": "card",
+          "settings": {
+            "card_head": "Fantastic sleep aid!",
+            "star_img": "shopify:\/\/shop_images\/download_343fe7b4-6bfc-40a9-9ee0-3e6390a3545c.png",
+            "card_text": "\"My mind is always working. And I often go through my to-do list in bed while I'm trying to sleep. No bueno. Calms Forté helps calm my mind and helps me fall asleep faster. Love it!\"",
+            "cust_name": "- Tania96 on Calms Forté"
+          }
         }
       },
       "block_order": [
-        "e4e203af-a784-4e27-ad3a-8971a39f9f28"
+        "e4e203af-a784-4e27-ad3a-8971a39f9f28",
+        "c0e4cd70-afd0-4a78-8432-513637550f1c"
       ],
       "settings": {
         "sec_head": "Customers love our sleep aid remedies!"
