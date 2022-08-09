@@ -1,0 +1,13 @@
+{
+  "wrapper": "div.sleep-page-templete",
+  "sections": {
+    "main": {
+      "type": "sleep-banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
