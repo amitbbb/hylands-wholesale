@@ -7,9 +7,30 @@
         "hero_heading": "Explore Hyland's Sleep Aid Remedies",
         "hero_sub_heading": "Browse our selection to find the best choice for you."
       }
+    },
+    "166002836266ed39e3": {
+      "type": "sleep-products-list",
+      "blocks": {
+        "2fcd3d45-bee0-47c2-8a05-59293c0e6764": {
+          "type": "card",
+          "settings": {
+            "heading": "Find a remedy for every type of sleeplessness.",
+            "subheading": "Emotions and worry keeping you up at night? Our Sleep remedy features Ignatia as its hero ingredient to promote comfort and relief from nervousness.",
+            "card_img": "shopify:\/\/shop_images\/3.webp",
+            "shop_all": "SHOP SLEEP",
+            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-sleep"
+          }
+        }
+      },
+      "block_order": [
+        "2fcd3d45-bee0-47c2-8a05-59293c0e6764"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166002836266ed39e3"
   ]
 }
