@@ -4,7 +4,7 @@
     margin-right: 42px;
 }
 
-.contact_heading h1 {
+.contact_heading h2 {
     margin: 0;
     font-size: 42px;
     padding: 74px 0 10px;
@@ -179,7 +179,7 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_desktop_mobile {
             padding: 60px 31px;
             max-width: 100%;
         }
-        .contact_heading h1 {
+        .contact_heading h2 {
             font-size: 32px;
             max-width: 100%;
         }
@@ -217,7 +217,7 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_desktop_mobile {
             text-align: left;
             font-size: 16px;
         }
-        body.page.contact.new .contact_heading h1 {
+        body.page.contact.new .contact_heading h2 {
             font-size: 30px;
         }
         
