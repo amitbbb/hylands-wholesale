@@ -77,12 +77,6 @@
             "img": "shopify:\/\/shop_images\/download_6.png",
             "text": "ALCOHOL FREE"
           }
-        },
-        "4b0d8d71-fd57-4b35-9b71-6246dd292c56": {
-          "type": "celltab",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
@@ -93,8 +87,7 @@
         "41afb158-2552-4c65-9e7e-4d3a17b16276",
         "ee4e81bb-3c3a-4bd7-bdc5-4a11cb06686f",
         "c0eb27b0-d81d-4ec6-ba93-3ec42993d5f9",
-        "7f03ff64-7111-48d8-9cc3-9f69240d08e8",
-        "4b0d8d71-fd57-4b35-9b71-6246dd292c56"
+        "7f03ff64-7111-48d8-9cc3-9f69240d08e8"
       ],
       "settings": {
         "heading": "Our cell salt tablets are made with key minerals to keep you healthy.",
