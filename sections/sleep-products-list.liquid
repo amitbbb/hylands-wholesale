@@ -5,7 +5,10 @@
         <div class="card-left">
           <h2>{{ block.settings.heading }}</h2>
           <p>{{ block.settings.subheading }}</p>
-          <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</p>
+          <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</a>
+        </div>
+        <div class="card-right">
+          <a href="{{ block.settings.shop_all_url }}" alt="">
         </div>
   {% endcase %}
   {% endfor %}
@@ -30,7 +33,12 @@
             "type": "text",
             "id": "subheading",
             "label": "Sub Heading"
-          },    
+          },
+          {
+            "type": "image_picker",
+            "id": "card_img",
+            "label": "Card Image"
+          },
           {
             "type": "text",
             "id": "shop_all",
