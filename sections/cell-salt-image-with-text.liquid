@@ -3,10 +3,11 @@
         {% if section.settings.text != blank%}
         <h2>{{section.settings.text}}</h2>
         {% endif %}
+        
         {% if section.settings.subheading != blank%}
-            <div class="cell_heading_text">
-        {{section.settings.subheading}}
-    </div>
+        <div class="cell_heading_text">
+            {{section.settings.subheading}}
+        </div>
         {% endif %}
     </div>
     <div class="cell_salt_image_text_right">
@@ -29,7 +30,7 @@
 },
 {
 "type": "richtext",
-"id": "text",
+"id": "subheading",
 "label": "Text"
 },
 {
