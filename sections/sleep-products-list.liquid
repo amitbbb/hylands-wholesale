@@ -4,6 +4,9 @@
     	{% when 'card' %}
         <div class="card-left">
           <h2>{{ block.settings.heading }}</h2>
+          <p>{{ block.settings.subheading }}</p>
+          <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</p>
+
         </div>
   {% endcase %}
   {% endfor %}
