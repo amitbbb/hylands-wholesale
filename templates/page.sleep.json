@@ -20,10 +20,18 @@
             "shop_all": "SHOP SLEEP",
             "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-sleep"
           }
+        },
+        "e5cb7a8b-8316-4532-8563-8a942356f1b6": {
+          "type": "Tags",
+          "settings": {
+            "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
+            "tag_name": "Worry"
+          }
         }
       },
       "block_order": [
-        "2fcd3d45-bee0-47c2-8a05-59293c0e6764"
+        "2fcd3d45-bee0-47c2-8a05-59293c0e6764",
+        "e5cb7a8b-8316-4532-8563-8a942356f1b6"
       ],
       "settings": {
       }
