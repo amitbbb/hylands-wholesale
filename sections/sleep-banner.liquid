@@ -1,12 +1,28 @@
+{% if section.settings.heading != blank %}
+<div class="sleep-banner">
+
+</div>
+{% endif %}
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Sleep Banner",
+  "class": "sleep-banner-main",
+  "settings": [
+    {
+      "type": "text",
+      "id": "hero_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "hero_sub_heading",
+      "label": "Sub Heading"
+    }
+  ],
+   "presets": [
+    {
+      "name": "Sleep Banner"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
