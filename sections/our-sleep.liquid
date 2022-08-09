@@ -3,6 +3,9 @@
   {% for block in section.blocks %}
     <div class="c-love-cards">
         <h3>{{ block.settings.card_head }}</h3>
+        <img src="{{ block.settings.star_img | img_url: 'master'}}" alt="{{block.settings.card_head}}"/>
+        <p>{{ block.settings.card_text }}</p>
+        <p>{{ block.settings.cust_name }}</p>
     </div>
   {% endfor %}
 {% endif %}
