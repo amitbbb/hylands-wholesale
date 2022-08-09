@@ -37,7 +37,9 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+.cell-tab_main .cell-tab_main_left .box:not(:nth-child(3n)) {
+    margin-right: 15px;
 }
 .cell-tab_main .cell-tab_main_right {
     max-width: calc(41% - 40px);
