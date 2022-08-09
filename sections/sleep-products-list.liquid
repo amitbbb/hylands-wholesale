@@ -1,25 +1,21 @@
-{% if section.settings.sec_head != blank %} 
-<div class="popular-cards">
-  <h2>{{ section.settings.sec_head }}</h2>
-  <p>{{ section.settings.sec_subhead }}</p>
-  <div class="popular-cards-slider">
-      {% for block in section.blocks %}
-      <div class="popular-cards">
-        {%- if block.settings.best_seller -%}
-            <div class="best-seller-badge">Best Seller</div>
-        {% endif %}
-            <a href="{{ block.settings.btn_url }}">
-              <img src="{{ block.settings.prod_img | img_url: 'master' }}" alt="" />
-              <h3>{{ block.settings.btn_label }}</h3>
-            </a>
+{% for block in section.blocks %}
+<div class="sleep-products-cards-wrapper">
+        <div class="card-left">
+          <h2>{{ block.settings.heading }}</h2>
+          <p>{{ block.settings.subheading }}</p>
+          <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</a>
+          <div class="tags_list">
+            <h3>{{ block.settings.tag_head }}</h3>
+             <div class="sleep_tag">                                   
+              <p>{{ block.settings.tag_name | replace: "|", "<p>" }}</p>
+             </div>                                   
+          </div>
+        </div>
+    	<div class="card-right">
+          <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
       </div>
-     {% endfor %}
-  </div>
 </div>
-<a class="shop-all-btn" href="{{ section.settings.shop_all_url }}">
-    {{ section.settings.shop_all }}
-</a>
-{% endif %}
+{% endfor %}
 {% schema %}
 {
   "name": "Sleep Products List",
@@ -40,7 +36,12 @@
             "type": "text",
             "id": "subheading",
             "label": "Sub Heading"
-          },    
+          },
+          {
+            "type": "image_picker",
+            "id": "card_img",
+            "label": "Card Image"
+          },
           {
             "type": "text",
             "id": "shop_all",
@@ -50,14 +51,7 @@
             "type": "text",
             "id": "shop_all_url",
             "label": "Shop Button URL"
-          }      
-      ]
-  },
-  {
-      "type": "Tags",
-      "name": "Tag List",
-      "settings": [
-        {
+          },        {
           "type": "text",
           "id": "tag_head",
           "label": "Tags Heading"
@@ -66,9 +60,9 @@
           "type": "text",
           "id": "tag_name",
           "label": "Tag Name"
-        }
+        }      
       ]
-    }
+  }
   ],
   "presets": [
   {
