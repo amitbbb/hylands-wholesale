@@ -18,20 +18,14 @@
             "subheading": "Emotions and worry keeping you up at night? Our Sleep remedy features Ignatia as its hero ingredient to promote comfort and relief from nervousness.",
             "card_img": "shopify:\/\/shop_images\/1_ae39db08-d0e8-49e2-9695-0c3f28ae6c55.png",
             "shop_all": "SHOP SLEEP",
-            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-sleep"
-          }
-        },
-        "e5cb7a8b-8316-4532-8563-8a942356f1b6": {
-          "type": "Tags",
-          "settings": {
+            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-sleep",
             "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
-            "tag_name": "Worry | Abcs | ABCS"
+            "tag_name": "WORRY | EMOTIONAL UPSE"
           }
         }
       },
       "block_order": [
-        "2fcd3d45-bee0-47c2-8a05-59293c0e6764",
-        "e5cb7a8b-8316-4532-8563-8a942356f1b6"
+        "2fcd3d45-bee0-47c2-8a05-59293c0e6764"
       ],
       "settings": {
       }
