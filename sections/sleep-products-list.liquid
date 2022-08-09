@@ -8,7 +8,7 @@
           <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</a>
           <div class="tags_list">
             <h3>{{ block.settings.tag_head }}</h3>
-            <p>{{ block.settings.tag_name | split: "<br />" }}</p>
+            <p>{{ block.settings.tag_name | replace: "|", "<p>" }}</p>
           </div>
         </div>
     	<div class="card-right">
