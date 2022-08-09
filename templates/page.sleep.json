@@ -55,10 +55,30 @@
       ],
       "settings": {
       }
+    },
+    "166003207693c983d3": {
+      "type": "our-sleep",
+      "blocks": {
+        "e4e203af-a784-4e27-ad3a-8971a39f9f28": {
+          "type": "card",
+          "settings": {
+            "card_head": "",
+            "card_text": "",
+            "cust_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "e4e203af-a784-4e27-ad3a-8971a39f9f28"
+      ],
+      "settings": {
+        "sec_head": "Customers love our sleep aid remedies!"
+      }
     }
   },
   "order": [
     "main",
-    "166002836266ed39e3"
+    "166002836266ed39e3",
+    "166003207693c983d3"
   ]
 }
