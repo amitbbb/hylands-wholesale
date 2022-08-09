@@ -34,11 +34,24 @@
             "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
             "tag_name": "RESTLESSNESS | IRRITABILITY | ANXIOUSNESS | WAKEFULNESS"
           }
+        },
+        "71574c2e-16e2-485d-9b35-e01b8a384ec9": {
+          "type": "card",
+          "settings": {
+            "heading": "Tackle routine cases of sleeplessness.",
+            "subheading": "For routine cases, Calms Forte will work quickly to get you back to sleep. It’s our blend of botanicals and minerals formulated to relieve sleeplessness caused by stress and nervous tension.",
+            "card_img": "shopify:\/\/shop_images\/3_68ac5f62-92ee-41c9-aa5c-e1313d8e9f1c.png",
+            "shop_all": "SHOP CALMS FORTE",
+            "shop_all_url": "#",
+            "tag_head": "CAN HELP RELIEVE INSOMNIA DUE TO:",
+            "tag_name": "STRESS | NERVOUS TENSION"
+          }
         }
       },
       "block_order": [
         "ec8bdf97-669e-45b7-955d-8634e298384a",
-        "2fcd3d45-bee0-47c2-8a05-59293c0e6764"
+        "2fcd3d45-bee0-47c2-8a05-59293c0e6764",
+        "71574c2e-16e2-485d-9b35-e01b8a384ec9"
       ],
       "settings": {
       }
