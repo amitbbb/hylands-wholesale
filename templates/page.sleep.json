@@ -2,7 +2,7 @@
   "wrapper": "div.sleep-page-templete",
   "sections": {
     "main": {
-      "type": "hero-banner",
+      "type": "sleep-banner",
       "settings": {
       }
     }
@@ -11,4 +11,3 @@
     "main"
   ]
 }
-
