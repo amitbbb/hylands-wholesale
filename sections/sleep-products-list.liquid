@@ -8,7 +8,7 @@
           <a href="{{ block.settings.shop_all_url }}">{{ block.settings.shop_all }}</a>
         </div>
         <div class="card-right">
-          <a href="{{ block.settings.shop_all_url }}" alt="">
+          <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}">
         </div>
   {% endcase %}
   {% endfor %}
