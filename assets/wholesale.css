@@ -81,3 +81,11 @@
 .cell-tab_main .cell-tab_main_left .box .acc_txt {
     line-height: 100%;
 }
+.cell-tab_main .cell-tab_main_right h2 {
+    font-size: 40px;
+   text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
