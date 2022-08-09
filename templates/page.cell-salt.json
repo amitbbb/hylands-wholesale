@@ -18,10 +18,86 @@
       "settings": {
         "marquee": "&nbsp;"
       }
+    },
+    "166004344774c96617": {
+      "type": "cell-tab",
+      "blocks": {
+        "dcd85cd1-a690-4916-8122-b721ae2b01c3": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_1.jpg",
+            "text": "MADE IN USA"
+          }
+        },
+        "ba7e412c-2eeb-4e6c-b3df-b7c728c51b63": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_615610b6-22b3-426c-8c4d-943b84d47a1a.png",
+            "text": "VEGAN"
+          }
+        },
+        "cd892d72-7cb4-4c85-9d92-c29851a59d46": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_1_e80642cd-4d8a-4b29-bc02-8b17ad83c0c7.png",
+            "text": "ALLERGEN FREE"
+          }
+        },
+        "c1a97e19-7050-473b-b945-1004ca854f71": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_2.png",
+            "text": "CRUELTY FREE"
+          }
+        },
+        "41afb158-2552-4c65-9e7e-4d3a17b16276": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_3.png",
+            "text": "NO ARTIFICIAL FLAVORS\/DYES"
+          }
+        },
+        "ee4e81bb-3c3a-4bd7-bdc5-4a11cb06686f": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_4.png",
+            "text": "GLUTEN FREE"
+          }
+        },
+        "c0eb27b0-d81d-4ec6-ba93-3ec42993d5f9": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_5.png",
+            "text": "PARABEN FREE"
+          }
+        },
+        "7f03ff64-7111-48d8-9cc3-9f69240d08e8": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_6.png",
+            "text": "ALCOHOL FREE"
+          }
+        }
+      },
+      "block_order": [
+        "dcd85cd1-a690-4916-8122-b721ae2b01c3",
+        "ba7e412c-2eeb-4e6c-b3df-b7c728c51b63",
+        "cd892d72-7cb4-4c85-9d92-c29851a59d46",
+        "c1a97e19-7050-473b-b945-1004ca854f71",
+        "41afb158-2552-4c65-9e7e-4d3a17b16276",
+        "ee4e81bb-3c3a-4bd7-bdc5-4a11cb06686f",
+        "c0eb27b0-d81d-4ec6-ba93-3ec42993d5f9",
+        "7f03ff64-7111-48d8-9cc3-9f69240d08e8"
+      ],
+      "settings": {
+        "heading": "Our cell salt tablets are made with key minerals to keep you healthy.",
+        "subheading": "<p>Each is derived from one of the 12 inorganic mineral compounds that are most important to our cellular health.<\/p><p>By working to stimulate the body’s natural healing mechanisms, cell salts help restore cell functions, bring health to muscle tissue, and balance the body.<\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "166002976881b13256"
+    "166002976881b13256",
+    "166004344774c96617"
   ]
 }
