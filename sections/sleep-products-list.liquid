@@ -29,26 +29,47 @@
   "blocks": [
   {
 	"type": "card",
-	"name": "Sleep Products",
+	"name": "Sleep Products Cards",
 	"settings": [      
-	    {
-          "type": "image_picker",
-          "id": "prod_img",
-          "label": "Product Image"
-        },
-        {
-          "type": "text",
-          "id": "btn_label",
-          "label": "Button Label"
-        },
-        {
-          "type": "text",
-          "id": "btn_url",
-          "label": "Button URL"
-        }      
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Sub Heading"
+          },    
+          {
+            "type": "text",
+            "id": "shop_all",
+            "label": "Shop Button"
+          },
+          {
+            "type": "text",
+            "id": "shop_all_url",
+            "label": "Shop Button URL"
+          }      
       ]
-  }
-  ] ,
+  },
+  {
+      "type": "Tags",
+      "name": "Tag List",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tag_head",
+          "label": "Tags Heading"
+        },
+        {
+          "type": "text",
+          "id": "tag_name",
+          "label": "Tag Name"
+        }
+      ]
+    }
+  ],
   "presets": [
   {
     "name": "Sleep Products List"
