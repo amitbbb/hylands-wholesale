@@ -100,3 +100,8 @@
     font-family: 'poppins-regular';
     line-height: normal;
 }
+.cell_salt_image_text {
+    display: flex;
+    max-width: 80%;
+    margin: 150px auto;
+}
