@@ -1,8 +1,8 @@
 <div class="cell-tab_main">
-  <div class="cell-tab_main">
+  
     <div class="cell-tab_main_left">
       {% for block in section.blocks %}
-      {% if block.settings.text != blank and block.type == celltab %}
+      {% if block.settings.text != blank and block.type == 'celltab' %}
       <div class="box">
         <img src="{{block.settings.img | img_url: 'original' }} "> 
           <div class="acc_txt">
@@ -15,14 +15,14 @@
 
     </div>
 
-  </div>
+  
 
   <div class="cell-tab_main_right">
       {% if section.settings.heading != blank%}
         <h2>{{ section.settings.heading }}</h2>
       {% endif %}
-      {% if section.settings.description != blank%}
-        <h2>{{ section.settings.description }}</h2>
+      {% if section.settings.subheading != blank%}
+        <h2>{{ section.settings.subheading }}</h2>
       {% endif %}
   </div>
 
@@ -43,14 +43,14 @@
 },
 {
   "type": "richtext",
-  "id": "description",
+  "id": "subheading",
   "label": "Text"  
 }
 ],
 "blocks": [
 {
   "type": "celltab",
-  "name":"celltab",
+  "name":"CellTab",
   "settings": [
   {
 "type": "image_picker",
@@ -60,7 +60,7 @@
 {
   "type": "text",
   "id": "text",
-  "label": "icon text"
+  "label": "Icon Text"
   }
   
   ]
