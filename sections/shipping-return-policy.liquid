@@ -1,5 +1,7 @@
  <div class="shipping-return-wrapper">
-   
+   <div class="shipping-banner">
+     <h1>{{ section.settings.heading }}</h1>
+   </div>
  </div>
 {% schema %}
 {
@@ -8,18 +10,28 @@
   "settings": [
   {
     "type": "text",
-    "id": "sec_head",
+    "id": "heading",
     "label": "Heading"
   },
   {
     "type": "text",
-    "id": "sec_subhead",
-    "label": "Sub Heading"
+    "id": "ship_head",
+    "label": "Shipping Heading"
   },
   {
-    "type": "image_picker",
-    "id": "cartoon_img",
-    "label": "ButterFly Image"
+    "type": "text",
+    "id": "ship_text",
+    "label": "Shipping Text"
+  },
+  {
+    "type": "text",
+    "id": "return_head",
+    "label": "Return Heading"
+  },
+  {
+    "type": "text",
+    "id": "return_text",
+    "label": "Return Text"
   }    
   ],
   "presets": [
