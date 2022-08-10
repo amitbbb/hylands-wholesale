@@ -69,79 +69,6 @@
         "shop_all_url": "https:\/\/shop.hylands.com\/collections\/gummies"
       }
     },
-    "16590875705df24038": {
-      "type": "most-popular-products",
-      "blocks": {
-        "c0d3b957-f8ac-490a-bd93-666a70f4bf7c": {
-          "type": "card",
-          "settings": {
-            "best_seller": true,
-            "prod_img": "shopify:\/\/shop_images\/1.png",
-            "btn_label": "IMMUNITY BOOST",
-            "btn_url": "https:\/\/hylands.com\/collections\/adults-gummies"
-          }
-        },
-        "e42fb165-4c8e-4c48-b7b7-36b70fb2695c": {
-          "type": "card",
-          "settings": {
-            "best_seller": false,
-            "prod_img": "shopify:\/\/shop_images\/2.png",
-            "btn_label": "LEG PAIN",
-            "btn_url": "https:\/\/www.hylands.com\/collections\/adults-leg-pain"
-          }
-        },
-        "e07ffbda-688f-4553-a1cc-bd83e0b23fd7": {
-          "type": "card",
-          "settings": {
-            "best_seller": false,
-            "prod_img": "shopify:\/\/shop_images\/3.png",
-            "btn_label": "STRESS &amp; SLEEP",
-            "btn_url": "https:\/\/www.hylands.com\/collections\/stress-sleep"
-          }
-        },
-        "b781c813-0580-4f17-b065-54709b3868e4": {
-          "type": "card",
-          "settings": {
-            "best_seller": false,
-            "prod_img": "shopify:\/\/shop_images\/4.png",
-            "btn_label": "CELL SALTS",
-            "btn_url": "https:\/\/www.hylands.com\/collections\/cell-salts"
-          }
-        },
-        "7b2196e6-732d-4045-9bb8-50cd6af2394b": {
-          "type": "card",
-          "settings": {
-            "best_seller": false,
-            "prod_img": "shopify:\/\/shop_images\/5.png",
-            "btn_label": "ACTIVE LIFESTYLE",
-            "btn_url": "https:\/\/www.hylands.com\/collections\/athletes"
-          }
-        },
-        "d4b09340-6dfd-4a6c-8790-a93ce385d25b": {
-          "type": "card",
-          "settings": {
-            "best_seller": false,
-            "prod_img": "shopify:\/\/shop_images\/6.png",
-            "btn_label": "SMOKING CESSATION",
-            "btn_url": "https:\/\/www.hylands.com\/collections\/adult-smoking-cessation"
-          }
-        }
-      },
-      "block_order": [
-        "c0d3b957-f8ac-490a-bd93-666a70f4bf7c",
-        "e42fb165-4c8e-4c48-b7b7-36b70fb2695c",
-        "e07ffbda-688f-4553-a1cc-bd83e0b23fd7",
-        "b781c813-0580-4f17-b065-54709b3868e4",
-        "7b2196e6-732d-4045-9bb8-50cd6af2394b",
-        "d4b09340-6dfd-4a6c-8790-a93ce385d25b"
-      ],
-      "settings": {
-        "sec_head": "Most popular products",
-        "sec_subhead": "",
-        "shop_all": "Shop All",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/gummies"
-      }
-    },
     "1659089423312ac6e6": {
       "type": "four-landing-pages",
       "blocks": {
@@ -220,6 +147,79 @@
       "settings": {
         "sec_head": "Let us know what you’re looking for"
       }
+    },
+    "16590875705df24038": {
+      "type": "most-popular-products",
+      "blocks": {
+        "c0d3b957-f8ac-490a-bd93-666a70f4bf7c": {
+          "type": "card",
+          "settings": {
+            "best_seller": true,
+            "prod_img": "shopify:\/\/shop_images\/1.png",
+            "btn_label": "IMMUNITY BOOST",
+            "btn_url": "https:\/\/hylands.com\/collections\/adults-gummies"
+          }
+        },
+        "e42fb165-4c8e-4c48-b7b7-36b70fb2695c": {
+          "type": "card",
+          "settings": {
+            "best_seller": false,
+            "prod_img": "shopify:\/\/shop_images\/2.png",
+            "btn_label": "LEG PAIN",
+            "btn_url": "https:\/\/www.hylands.com\/collections\/adults-leg-pain"
+          }
+        },
+        "e07ffbda-688f-4553-a1cc-bd83e0b23fd7": {
+          "type": "card",
+          "settings": {
+            "best_seller": false,
+            "prod_img": "shopify:\/\/shop_images\/3.png",
+            "btn_label": "STRESS &amp; SLEEP",
+            "btn_url": "https:\/\/www.hylands.com\/collections\/stress-sleep"
+          }
+        },
+        "b781c813-0580-4f17-b065-54709b3868e4": {
+          "type": "card",
+          "settings": {
+            "best_seller": false,
+            "prod_img": "shopify:\/\/shop_images\/4.png",
+            "btn_label": "CELL SALTS",
+            "btn_url": "https:\/\/www.hylands.com\/collections\/cell-salts"
+          }
+        },
+        "7b2196e6-732d-4045-9bb8-50cd6af2394b": {
+          "type": "card",
+          "settings": {
+            "best_seller": false,
+            "prod_img": "shopify:\/\/shop_images\/5.png",
+            "btn_label": "ACTIVE LIFESTYLE",
+            "btn_url": "https:\/\/www.hylands.com\/collections\/athletes"
+          }
+        },
+        "d4b09340-6dfd-4a6c-8790-a93ce385d25b": {
+          "type": "card",
+          "settings": {
+            "best_seller": false,
+            "prod_img": "shopify:\/\/shop_images\/6.png",
+            "btn_label": "SMOKING CESSATION",
+            "btn_url": "https:\/\/www.hylands.com\/collections\/adult-smoking-cessation"
+          }
+        }
+      },
+      "block_order": [
+        "c0d3b957-f8ac-490a-bd93-666a70f4bf7c",
+        "e42fb165-4c8e-4c48-b7b7-36b70fb2695c",
+        "e07ffbda-688f-4553-a1cc-bd83e0b23fd7",
+        "b781c813-0580-4f17-b065-54709b3868e4",
+        "7b2196e6-732d-4045-9bb8-50cd6af2394b",
+        "d4b09340-6dfd-4a6c-8790-a93ce385d25b"
+      ],
+      "settings": {
+        "sec_head": "Most popular products",
+        "sec_subhead": "",
+        "shop_all": "Shop All",
+        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/gummies"
+      }
     }
   },
   "order": [
@@ -227,8 +227,8 @@
     "1659074376cbe53d6b",
     "165944229444862f5a",
     "1659082521b87ebc5e",
-    "16590875705df24038",
     "1659089423312ac6e6",
-    "1659099892e266de76"
+    "1659099892e266de76",
+    "16590875705df24038"
   ]
 }
