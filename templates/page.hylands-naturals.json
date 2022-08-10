@@ -2,7 +2,7 @@
   "wrapper": "div.hylands-naturals-templete",
   "sections": {
     "main": {
-      "type": "hero-banner",
+      "type": "hylands-naturals",
       "settings": {
       }
     }
