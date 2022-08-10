@@ -1,7 +1,8 @@
-{% if section.settings.sec_head != blank %} 
-<div class="landing-pages-main">
+ <div class="landing-pages-main">
+ {% if section.settings.sec_head != blank %}
   <h2>{{ section.settings.sec_head }}</h2>
   <p>{{ section.settings.sec_subhead }}</p>
+ {% endif %}
   {% if section.settings.settings.cartoon_img != blank %} 
   <div class="cartoon_img">
     <img src="{{ section.settings.cartoon_img | img_url: 'master' }}" alt="" />
@@ -18,7 +19,7 @@
       </div>
   </div>
 </div>
-{% endif %}
+
 {% schema %}
 {
   "name": "Four Landing Pages",

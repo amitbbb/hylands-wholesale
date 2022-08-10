@@ -36,9 +36,11 @@
       {% endfor %}
   </div>
 </div>
+{% if section.settings.section.settings.shop_all != blank %}
 <a class="shop-all-btn" href="{{ section.settings.shop_all_url }}">
     {{ section.settings.shop_all }}
 </a>
+{% endif %}
 {% schema %}
 {
   "name": "Four Products and Image",

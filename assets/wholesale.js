@@ -53,7 +53,7 @@ $( document ).ready(function() {
 
 
 $( document ).ready(function() {
-  if ($(window).width() <= 768) {
+  if ($(window).width() <= 768  && (!$(body).hasClass("index"))) {
     $(".four-products-image > .main-text-block").prependTo(".left-side-main-container > .left-side-container");
     if($('.left-side-main-container .right-side-container').length > 0) {
         $('.left-side-main-container .right-side-container').slick({
