@@ -2,7 +2,7 @@
   "wrapper": "div.shipping-return-templete",
   "sections": {
     "main": {
-      "type": "hero-banner",
+      "type": "shipping-return-policy",
       "settings": {
       }
     }
