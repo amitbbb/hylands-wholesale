@@ -4,7 +4,7 @@
     "main": {
       "type": "shipping-return-policy",
       "settings": {
-        "heading": "Shipping & Return Policy",
+        "heading": "Shipping & Return<br>Policy",
         "ship_head": "Shipping",
         "ship_text": "<p>Orders of $35 or more are eligible for free Standard Shipping. Orders are not processed on Saturday, Sunday, or national holidays.<\/p>",
         "return_head": "Return Policy",
