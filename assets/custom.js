@@ -504,7 +504,7 @@ $('.customfield-tabs .tab-info-wrap p a').click(function(){
   return false;
 });  
   
-});
+}); 
 
 
 $("body").on("mouseenter", ".header__inline-menu>ul>li", function(){

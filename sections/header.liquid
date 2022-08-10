@@ -426,7 +426,7 @@
       <a href="#" class="header__icon header__icon--lang link focus-inset">
         <img src="{{ 'flag.png' | asset_url }}" alt="language"> <span>US</span>        
       </a>
-      
+       
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="my-account-icon header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% comment %}
           {% render 'icon-account' %}
