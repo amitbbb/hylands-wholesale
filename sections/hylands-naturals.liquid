@@ -7,11 +7,10 @@
         <img src="{{ section.settings.center_img | img_url: 'master' }}" alt="" />
       </div>
       {% endif %}
-            <h3>{{ block.settings.card_head }}</h3>
-          {% endfor %}
-      </div>
-  </div>
-</div>
+    <h3>{{ block.settings.card_head }}</h3>
+    <p>{{ block.settings.card_text }}</p>
+  {% endfor %}
+ </div>
 {% endif %}
 {% schema %}
 {
