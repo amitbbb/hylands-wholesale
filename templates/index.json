@@ -12,7 +12,9 @@
         "hero_heading": "Safe, natural cold relief for kids",
         "hero_sub_heading": "Shop gentle products that work hard to relieve cough and cold symptoms for your little ones.",
         "hero_button": "SHOP KID'S COLD & COUGH",
-        "hero_btn_url": "https:\/\/hylands.com\/collections\/kids-cold-cough"
+        "hero_btn_url": "https:\/\/hylands.com\/collections\/kids-cold-cough",
+        "hero_btn_color": "",
+        "hero_btn_h_color": ""
       }
     },
     "165944229444862f5a": {
@@ -56,11 +58,13 @@
         "873c17d4-2ed7-4aa5-b075-9ce60cabb60b"
       ],
       "settings": {
-        "main_head": "Created just for you and your little ones",
-        "main_subhead": "Our approach is rooted in nature’s very best healing ingredients—free of drug interactions and artificial stuff, always.",
+        "main_head": "Shop our newest products",
+        "main_subhead": "",
         "left_img": "shopify:\/\/shop_images\/download.png",
         "sec_head": "Goodness-packed gummies",
         "sec_subhead": "Our new Organic Elderberry Plus vitamin gummies for kids and adults are packed with high-potency Black Elderberry, Vitamin C, and Zinc.",
+        "shop_btn": "",
+        "shop_btn_url": "",
         "shop_all": "Shop All",
         "shop_all_url": "https:\/\/shop.hylands.com\/collections\/gummies"
       }
