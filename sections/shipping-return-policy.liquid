@@ -1,23 +1,31 @@
- <div class="landing-pages-main">
- {% if section.settings.sec_head != blank %}
-  <h2>{{ section.settings.sec_head }}</h2>
-  <p>{{ section.settings.sec_subhead }}</p>
- {% endif %}
-  {% if section.settings.settings.cartoon_img != blank %} 
-  <div class="cartoon_img">
-    <img src="{{ section.settings.cartoon_img | img_url: 'master' }}" alt="" />
-  </div>
- {% endif %}
+ <div class="shipping-return-wrapper">
+   
  </div>
 {% schema %}
+{
+  "name": "Shipping Return",
+  "class": "shipping-return",  
+  "settings": [
   {
-    "name": "Shipping Return Policy",
-    "settings": []
+    "type": "text",
+    "id": "sec_head",
+    "label": "Heading"
+  },
+  {
+    "type": "text",
+    "id": "sec_subhead",
+    "label": "Sub Heading"
+  },
+  {
+    "type": "image_picker",
+    "id": "cartoon_img",
+    "label": "ButterFly Image"
+  }    
+  ],
+  "presets": [
+  {
+    "name": "Shipping Return"
   }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
