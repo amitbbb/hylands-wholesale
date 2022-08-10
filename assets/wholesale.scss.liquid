@@ -1925,6 +1925,71 @@ body.index{
         img{
           width: 100%;
         }
+            &:before {
+      content: '';
+      position: absolute;
+      z-index: 9;
+      width: 158px;
+      height: 125px;
+      display: block;
+      top: 20px;
+      right: 0px;
+      background-image: url("orange-bird.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      @media screen and (max-width: 1367px) {
+        width: 133px;
+    	height: 100px;
+      }
+      @media screen and (max-width: 1025px) {
+        width: 90px;
+    	height: 80px;
+      }
+      @media screen and (max-width: 769px) {
+        width: 70px;
+    	height: 60px;
+      }
+      @media screen and (max-width: 767px) {
+        right: -18px;
+    	top: 1%;
+      }
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 9;
+      width: 140px;
+      height: 103px;
+      display: block;
+      top: 34%;
+      left: 0px;
+      background-image: url("yellow-bird1.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      @media screen and (max-width: 1601px) {
+        top: 24%;
+    	left: -8%;
+      }
+      @media screen and (max-width: 1367px) {
+        width: 120px;
+    	height: 83px;
+      }
+      @media screen and (max-width: 1025px) {
+        width: 80px;
+    	height: 70px;
+      }
+      @media screen and (max-width: 769px) {
+        width: 60px;
+    	height: 50px;
+      }
+      @media screen and (max-width: 767px) {
+        top: 22%;
+        left: -20px;
+      }
+    }
+        
       }
     }
   }
