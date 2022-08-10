@@ -15,7 +15,9 @@
        <p>{{ section.settings.text3 }}</p>  
      </div>
    </div>
-   <div class="center-side"></div>
+   <div class="center-side">
+     <img src="{{ section.settings.center_img | img_url: 'master' }}"/>
+   </div>
    <div class="right-side">
      <div class="text-box">
        <h3>{{ section.settings.head4 }}</h3>
