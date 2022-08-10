@@ -506,22 +506,6 @@ $('.customfield-tabs .tab-info-wrap p a').click(function(){
   
 });
 
-$(window).on("load", function(){
-     $('<a href="/account">Customer Login</a>').appendTo(".header__icon .account-list li:nth-child(1)");
-     $('<a href="/tools/recurring/login">Subscriptions</a>').appendTo(".header__icon .account-list li:nth-child(2)");
-     $('<a href="/pages/loyalty-program">Wellness Rewards</a>').appendTo(".header__icon .account-list li:nth-child(3)");
-  
- 
-});
-
-$("body").on("mouseenter", ".header__icons .my-account-icon", function(){
-	$(this).children(".account-list").addClass("active");
-});
-
-$("body").on("mouseleave", ".header__icons .my-account-icon", function(){
-	$(this).children(".account-list").removeClass("active");
-});
-
 
 $("body").on("mouseenter", ".header__inline-menu>ul>li", function(){
   if(!$(this).hasClass("open")) {
