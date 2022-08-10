@@ -4,6 +4,8 @@
     "main": {
       "type": "hylands-naturals",
       "settings": {
+        "sec_head": "Why Hyland's Naturals?",
+        "center_img": "shopify:\/\/shop_images\/4_c422ccde-f2cf-4477-b58a-8986c030a063.png"
       }
     }
   },
