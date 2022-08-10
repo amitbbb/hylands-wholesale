@@ -2,40 +2,12 @@
   "wrapper": "div.stress-templete",
   "sections": {
     "main": {
-      "type": "hero-banner",
-      "disabled": true,
-      "settings": {
-        "hero_heading": "",
-        "hero_sub_heading": "",
-        "hero_button": "",
-        "hero_btn_url": "",
-        "hero_btn_color": "",
-        "hero_btn_h_color": ""
-      }
-    },
-    "1660120069984c7430": {
       "type": "sleep-banner",
       "settings": {
-        "hero_heading": "",
-        "hero_sub_heading": ""
-      }
-    },
-    "16601201171716af81": {
-      "type": "sleep-products-list",
-      "settings": {
-      }
-    },
-    "1660120128af6f81ba": {
-      "type": "our-sleep",
-      "settings": {
-        "sec_head": ""
       }
     }
   },
   "order": [
-    "main",
-    "1660120069984c7430",
-    "16601201171716af81",
-    "1660120128af6f81ba"
+    "main"
   ]
 }
