@@ -1,15 +1,9 @@
 {% if section.settings.sec_head != blank %}
   <h2>{{ section.settings.sec_head }}</h2>  
- <div class="landing-pages-main">
-  {% for block in section.blocks %} 
-      {% if section.settings.settings.center_img != blank %}   
-      <div class="center_img">
-        <img src="{{ section.settings.center_img | img_url: 'master' }}" alt="" />
-      </div>
-      {% endif %}
-    <h3>{{ block.settings.card_head }}</h3>
-    <p>{{ block.settings.card_text }}</p>
-  {% endfor %}
+ <div class="naturals-wrapper">
+   <div class="left-side"></div>
+   <div class="center-side"></div>
+   <div class="right-side"></div>
  </div>
 {% endif %}
 {% schema %}
@@ -26,26 +20,69 @@
     "type": "image_picker",
     "id": "center_img",
     "label": "Center Image"
-  }    
-  ],
-  "blocks": [
+  },
   {
-	"type": "textbox",
-	"name": "Text Card",
-	"settings": [
-        {
-          "type": "text",
-          "id": "card_head",
-          "label": "Heading"
-        },
-        {
-          "type": "text",
-          "id": "card_text",
-          "label": "Text"
-        }      
-      ]
+    "type": "text",
+    "id": "head1",
+    "label": "Heading 1"
+  },
+  {
+    "type": "text",
+    "id": "text1",
+    "label": "Text 1"
+  },
+  {
+    "type": "text",
+    "id": "head2",
+    "label": "Heading 2"
+  },
+  {
+    "type": "text",
+    "id": "text2",
+    "label": "Text 2"
+  },
+  {
+    "type": "text",
+    "id": "head3",
+    "label": "Heading 3"
+  },
+  {
+    "type": "text",
+    "id": "text3",
+    "label": "Text 3"
+  },
+  {
+    "type": "text",
+    "id": "head4",
+    "label": "Heading 4"
+  },
+  {
+    "type": "text",
+    "id": "text4",
+    "label": "Text 4"
+  },
+  {
+    "type": "text",
+    "id": "head5",
+    "label": "Heading 5"
+  },
+  {
+    "type": "text",
+    "id": "text5",
+    "label": "Text 5"
+  },
+  {
+    "type": "text",
+    "id": "head6",
+    "label": "Heading 6"
+  },
+  {
+    "type": "text",
+    "id": "text6",
+    "label": "Text 6"
   }
-  ] ,
+    
+  ],
   "presets": [
   {
     "name": "Hyland Naturals"
