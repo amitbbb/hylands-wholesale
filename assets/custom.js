@@ -1,6 +1,33 @@
 $(window).on("load", function() {
    
-  if($('.article-with-image').length > 0) {
+  if($('.cell-landing-products-slider').length > 0) {
+    $('.cel-landing-products-slider-main .cell-landing-products-slider ').slick({
+      infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    });
+  }
+
+  
+   if($('.article-with-image').length > 0) {
     $('.article-with-image .right-slider').slick({
       infinite: false,
       slidesToShow: 1,
@@ -15,7 +42,7 @@ $(window).on("load", function() {
       speed: 1000
     });
   }
-  
+   
 });
 
 //Jeffs code additions
