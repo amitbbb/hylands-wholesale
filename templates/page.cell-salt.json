@@ -131,6 +131,103 @@
       "settings": {
         "heading": "Customers love our cell salts!"
       }
+    },
+    "1660291890d81aa6b3": {
+      "type": "cell-salt-slider",
+      "blocks": {
+        "573460dd-cf7f-4e2a-8880-3dfa8fcb52ca": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-fluor"
+          }
+        },
+        "e606957b-1b4e-49fd-91f8-900aa0441448": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-phos"
+          }
+        },
+        "67f76ce7-f441-45f4-9e63-041da82566c9": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-sulph"
+          }
+        },
+        "b6556996-246c-4f10-aedc-0a431d2f4741": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-ferrum-phos"
+          }
+        },
+        "a05ca517-bcfd-4099-b46f-6062ee8d5752": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-mur"
+          }
+        },
+        "ac5c4d66-e77a-4cb2-8caf-81d28270c5bf": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-phos"
+          }
+        },
+        "d1f9053e-5419-420d-be32-9ab48a54b685": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-sulph"
+          }
+        },
+        "4cd9e0af-600f-4172-8464-1db5bd15b7ff": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-mag-phos"
+          }
+        },
+        "f863311e-b94c-40bf-b61c-a7e163bb2648": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-mur"
+          }
+        },
+        "d306ad89-74cf-4833-a5e2-2757dc16c6d4": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-phos"
+          }
+        },
+        "aa0e6644-1cbb-47b6-b054-bf7b19656650": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-sulph"
+          }
+        },
+        "73b5e4f8-24ba-4740-8ca5-9ea1dac39c7d": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-silicea"
+          }
+        }
+      },
+      "block_order": [
+        "573460dd-cf7f-4e2a-8880-3dfa8fcb52ca",
+        "e606957b-1b4e-49fd-91f8-900aa0441448",
+        "67f76ce7-f441-45f4-9e63-041da82566c9",
+        "b6556996-246c-4f10-aedc-0a431d2f4741",
+        "a05ca517-bcfd-4099-b46f-6062ee8d5752",
+        "ac5c4d66-e77a-4cb2-8caf-81d28270c5bf",
+        "d1f9053e-5419-420d-be32-9ab48a54b685",
+        "4cd9e0af-600f-4172-8464-1db5bd15b7ff",
+        "f863311e-b94c-40bf-b61c-a7e163bb2648",
+        "d306ad89-74cf-4833-a5e2-2757dc16c6d4",
+        "aa0e6644-1cbb-47b6-b054-bf7b19656650",
+        "73b5e4f8-24ba-4740-8ca5-9ea1dac39c7d"
+      ],
+      "settings": {
+        "main_head": "Looking to help remedy a specific issue?",
+        "main_subhead": "View our full line of single cell salts to find the right product for you. Each manages specific symptoms so you can be sure you're supporting your body's individual needs.",
+        "shop_all": "",
+        "shop_all_url": ""
+      }
     }
   },
   "order": [
@@ -138,6 +235,7 @@
     "166002976881b13256",
     "166004344774c96617",
     "1660053120b89bc689",
-    "1660053168dfe9f91e"
+    "1660053168dfe9f91e",
+    "1660291890d81aa6b3"
   ]
 }
