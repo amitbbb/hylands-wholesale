@@ -1,33 +1,5 @@
 $(window).on("load", function() {
-   
-  if($('.cell-landing-products-slider').length > 0) {
-    $('.cel-landing-products-slider-main .cell-landing-products-slider ').slick({
-      infinite: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: false,
-        responsive: [
-          {
-            breakpoint: 1025,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-    });
-  }
-
-  
-   if($('.article-with-image').length > 0) {
+     if($('.article-with-image').length > 0) {
     $('.article-with-image .right-slider').slick({
       infinite: false,
       slidesToShow: 1,
@@ -952,3 +924,31 @@ var x = setInterval(function(){
     }
   }, 1000);
 });
+$(document).ready(function(){
+         
+  if($('.cell-landing-products-slider').length > 0) {
+    $('.cel-landing-products-slider-main .cell-landing-products-slider ').slick({
+      infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    });
+  }
+    })
