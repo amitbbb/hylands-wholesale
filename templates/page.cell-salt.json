@@ -228,6 +228,13 @@
         "shop_all": "",
         "shop_all_url": ""
       }
+    },
+    "1660315222300b97b0": {
+      "type": "cell-single-product",
+      "settings": {
+        "product_item": "hylands-arnisport-tablets-1",
+        "description": "<p>Bioplasma contains all twelve cell salts. This key combination restores mineral balance and can help relieve symptoms of colds, simple nervous tension, fatigue, and headaches.<\/p>"
+      }
     }
   },
   "order": [
@@ -236,6 +243,7 @@
     "166004344774c96617",
     "1660053120b89bc689",
     "1660053168dfe9f91e",
-    "1660291890d81aa6b3"
+    "1660291890d81aa6b3",
+    "1660315222300b97b0"
   ]
 }
