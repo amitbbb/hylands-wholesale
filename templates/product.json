@@ -582,6 +582,7 @@
           "settings": {
             "match_tag": "Diet_Made in USA",
             "heading": "Made in the USA",
+            "icon": "shopify:\/\/shop_images\/USA_7626c16d-0f10-4493-9f02-a3095ba8c3b6.png",
             "text_heading": "Made in the USA",
             "tag_details": "<p>Our symptom-alleviating products are all domestically produced within the United States of America. By investing within local communities and businesses, we can be sure that fair labor is guaranteed. <\/p><p>Our natural ingredients are sourced globally and sustainably when possible. We stand with ethical practices and support production that is better for people and the environment.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -591,6 +592,7 @@
           "settings": {
             "match_tag": "Diet_Organic",
             "heading": "Organic",
+            "icon": "shopify:\/\/shop_images\/Organic_13fa6c5c-0de8-4432-a76e-e4eb70215570.png",
             "text_heading": "Organic",
             "tag_details": "<p>Here at Hyland's, we specialize in organic formulas that are completely free from harmful toxins. Made only with pure and quality ingredients, our organic products do not contain chemical preservatives, synthetic materials, or artificial components. We source natural herbs and minerals to help support your wellbeing.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -609,6 +611,7 @@
           "settings": {
             "match_tag": "Diet_Vegan",
             "heading": "Vegan",
+            "icon": "shopify:\/\/shop_images\/Vegan_b42eb8b9-6eb4-48df-9e7d-38207767b390.png",
             "text_heading": "Vegan",
             "tag_details": "<p>We focus on safe and healthy formulas for all. Therefore, Hyland's gummies are 100% vegan, meaning you won't find any animal-sourced ingredients or derivatives. What you will find is clean, accessible, and quality supplements to support your healthy lifestyle. <\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -618,6 +621,7 @@
           "settings": {
             "match_tag": "Diet_Allergen Free",
             "heading": "Allergen Free",
+            "icon": "shopify:\/\/shop_images\/Allergen-Free_b2006bb7-7b3e-42ca-a659-9a87a99ca600.png",
             "text_heading": "Allergen Free",
             "tag_details": "<p>All of Hyland's products are free from common allergens including milk proteins*, eggs, fish, shellfish, tree nuts, peanuts, wheat, and soybeans. We source our ingredients from around the world, and always with the highest standards. We craft our remedies with care and make sure to provide safe and healthy goods that supports every lifestyle and diet.<\/p><p><\/p><p><em>*No products contain any whey or casein milk proteins. Our tablets are made with Lactose NF, a sugar derived from milk. Our liquids may contain trace amounts of lactose.*<\/em><\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -627,6 +631,7 @@
           "settings": {
             "match_tag": "Diet_Cruelty Free",
             "heading": "Cruelty Free",
+            "icon": "shopify:\/\/shop_images\/Curelty-Free_8ac108db-9b5b-4d9d-a9aa-11bf318a4428.png",
             "text_heading": "Cruelty Free",
             "tag_details": "<p>In addition to providing the best natural remedies, we are also proud to say that Hyland's is 100% cruelty free. That means our products are not tested on animals nor are any being harmed during production. <\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -636,6 +641,7 @@
           "settings": {
             "match_tag": "Diet_Easy Dissolve",
             "heading": "Easy Dissolve",
+            "icon": "shopify:\/\/shop_images\/No_Artificial.png",
             "text_heading": "Easy Dissolve",
             "tag_details": "<p>We care for the safety of our community and know that pills aren't always easy to swallow. That's why we make our tablets easily dissolvable for safe and comfortable ingestion. Our focus has always been to offer alternatives that are reliable, supportive, and accessible.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -645,6 +651,7 @@
           "settings": {
             "match_tag": "Diet_No Artificial Flavors or Dyes",
             "heading": "No Artificial Flavors or Dyes",
+            "icon": "shopify:\/\/shop_images\/Nothing-Artifical_1.png",
             "text_heading": "No Artificial Flavors or Dyes",
             "tag_details": "<p>Hyland's believes in wellness starting with authentic, natural contents. Therefore, our products contain no artificial flavors or dyes. All flavors and colors are naturally occurring from our powerful ingredients.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -654,6 +661,7 @@
           "settings": {
             "match_tag": "Diet_Gluten Free",
             "heading": "Gluten Free",
+            "icon": "shopify:\/\/shop_images\/Gluten-Free_84146f4a-1e6c-4fc2-bfc9-ed451fb379bc.png",
             "text_heading": "Gluten Free",
             "tag_details": "<p>As well as being allergen-free, this product is also gluten-free, and is safe for anyone with gluten sensitivities. We do not use any wheat or gluten proteins in any product. <\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -663,6 +671,7 @@
           "settings": {
             "match_tag": "Diet_Paraben Free",
             "heading": "Paraben Free",
+            "icon": "shopify:\/\/shop_images\/Paraben-Free_d1333588-76a6-4f7f-9995-8c1f50f1242a.png",
             "text_heading": "Paraben Free",
             "tag_details": "<p>In the spirit of keeping our wellness products as clean as possible, the Hyland's range is paraben-free. We believe in the natural power of homeopathy so we don't add any synthetic preservatives to our formulas.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
@@ -672,6 +681,7 @@
           "settings": {
             "match_tag": "Diet_Alcohol Free",
             "heading": "Alcohol Free",
+            "icon": "shopify:\/\/shop_images\/Alcohol_Free.png",
             "text_heading": "",
             "tag_details": "<p>Alongside natural active ingredients, the formula is also alcohol free. Our pediatric cold and cough syrups are carefully created to be gentle and soothing in support of strong long-term health. Your family’s wellbeing is our priority and we are dedicated to providing safe and effective treatments.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
