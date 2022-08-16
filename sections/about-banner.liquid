@@ -1,47 +1,41 @@
-<div class="about-section">
+<div class="page_section">
+    <div class="page_content">
+       <div class="about_slider_box">
+                {% for block in section.blocks %}
+                     {% if block.settings.img != blank and block.type == 'slider' %}
+                      <div class="about_image">
+                            <span class="acc_txt_txt">{{ block.settings.text }}</span>
+                        </div> 
+                     {% endif %}
+                    {% endfor %}
+  </div>
 
-  {% for block in section.blocks %}
-   {% if block.settings.img != blank and block.type == 'slider' %}
-    <div class="about_inner">
-      <div class="about_box">
-          <img src="{{ block.settings.img | img_url: 'original'}}" />
-        </div>
-    </div> 
-   {% endif %}
-  {% endfor %}
 </div>
 
+</div>
 
 {% schema %}
-  {
-    "name": "About Slider",
-    "settings": [],
-    "blocks": [
-    {
-    "type": "slider",
-		"name": "slider",
-    "settings":[
-    {
-        "type": "image_picker",
-        "id": "img",
-        "label": "Image"
-    }
-
-    ]
-  }
-    ],
-    "presets":
-		[
-      {
-        "name":"About Slider"
-      }
-    ]
-
-  }
+{
+  "name": "About Slider",
+  "settings": [],
+"blocks":[
+ {
+  "type": "slider",
+  "name": "slider",
+  "settings":[
+   {
+    "type": "image_picker",
+    "id": "img",
+    "label": "Image"
+   }
+ 
+  ]
+ }	 
+],
+"presets":[
+ {
+  "name": "About Slider"
+ }
+]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
