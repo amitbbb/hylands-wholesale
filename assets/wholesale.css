@@ -1,4 +1,5 @@
-.cell-salt-templete .hero-banner .hero-text-box {
+.cell-salt-templete .hero-banner .hero-text-box
+{
     max-width: 656px;
     margin-left: 0;
     padding-top: 40px;
@@ -67,7 +68,7 @@
 }
 .cell-salt-templete .cell-tab_main {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 .cell-tab_main .cell-tab_main_left .box .acc_txt span {
     width: 100%;
@@ -143,11 +144,13 @@
 
 .cell_salt_image_text .cell_salt_image_text_left .cell_heading_text p:not(:first-child) {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cell_salt_image_text .cell_salt_image_text_left .cell_heading_text p {
     font-family: 'poppins-regular';
     font-size: 18px;
+    line-height: normal;
 }
 .cell-customer .cell-customer_heading {
     text-align: center;
@@ -174,7 +177,7 @@
     margin: 0;
     padding-top: 10px;
     font-weight: 600;
-    font-family: 'poppins';
+    font-family: 'poppins-regular';
     text-align: left;
     font-style: normal;
     letter-spacing: normal;
@@ -446,14 +449,83 @@
     font-family: 'poppins-regular';
     height: 53px;
 }
+.cell-customer {
+    padding-top: 50px;
+}.cell-customer .cell-customer_heading h2 {
+    margin: 0;
+    margin-bottom: 52px;
+}
+.cell-customer .cell_customer_inner .box .customer_quote p {
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'poppins-regular';
+    margin-bottom: 20px;
+}
+.cell-customer .cell-customer_heading h2 {
+    margin: 0;
+    margin-bottom: 52px;
+}
+
+.cell-customer .cell_customer_inner .box .customer_quote p {
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'poppins-regular';
+    margin-bottom: 20px;
+}
+
+.cell-customer .cell_customer_inner .box .description_box p {
+    font-size: 16px;
+    font-family: 'poppins-regular';
+    position: relative;
+}
+
+.cell-customer .cell_customer_inner .box .description_box p:before {
+    content: "-";
+    position: relative;
+    padding-right: 5px;
+}
 
 /*  Responsive  */
+@media screen and (max-width: 1440px) {
+    .cell-tab_main .cell-tab_main_right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cell_salt_image_text .cell_salt_image_text_left {
+        max-width: calc(41% - 40px);
+    }
+
+}
 @media screen and (max-width: 1199px) {
     .sleep-products-cards{
         padding-left: 50px;
         padding-right: 50px;
     }
 }
+
+@media (max-width: 1024px){
+    .cell-salt-templete .hero-banner .hero-text-box h1 {
+        font-size: 40px;
+    }
+    .cell-salt-templete .hero-banner .hero-text-box {
+    max-width: 450px;
+        margin: 35px 0;
+}
+.cell-tab_main .cell-tab_main_right {
+    max-width: calc(41% - 20px);
+}
+.cell-tab_main .cell-tab_main_left {
+    max-width: calc(58% - 20px);
+}
+.cell-tab_main {
+    max-width: 90%;
+}
+.cel-single-product-main .cell-tablet-products {
+    padding: 150px 120px;
+}
+
+}
+
 @media screen and (max-width: 991px) {
     .sleep-banner{
         padding-top: 20px;
