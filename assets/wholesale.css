@@ -556,9 +556,9 @@
     border-bottom-left-radius: 6px;
     
 }
-.about-history-templete .about_slider_box .about_image.slick-slide.slick-current.slick-active {
+.about-history-templete .about_slider_box .slick-list.draggable {
     border-top-left-radius: 12px;
-    overflow: hidden;
+    border-top-right-radius: 12px;
 }
 .about-history-templete .about_text_box {
     padding: 160px 42px 0;
