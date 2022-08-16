@@ -6,8 +6,12 @@
       <p>{{ section.settings.description }}</p>
 
       <form action="/cart/add" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="form_type" value="product">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+
         <div class="product_varie">
-          {% if product.available == true %}
+          {% if product.varients[0].available == true %}
           <p>{{ product.price | money_with_currency }}</p>
           {% else %}
           <p disabled="disabled" class="product-sold-out">Sold out</p>
@@ -28,15 +32,7 @@
           <div class="cell-product_break">
             <div class="cell-product_quantity_inner">
               <div class="cell-product_quantity_save_main ">
-                {% if variant.price == true %}
-                {{product.price | money_with_currency }}
-                {% endif %}
-
-
-
-                {% if product.available == true %}
-               {% comment%} <p> {{ variant.title }} for {{ variant.price | money_with_currency }}</p>
-               {% endcomment%}
+                {% if product.varients[0].available == true %}
                 <input type="submit" name="add" id="add" value="Add to Cart" class="button">
                 {% else %}
                 <button disabled="disabled" class="product-sold-out"> {{ variant.title }} Sold out</button>
