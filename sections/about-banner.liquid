@@ -1,40 +1,7 @@
-<div class="about-section">
-
-  {% for block in section.blocks %}
-   {% if block.settings.img != blank and block.type == 'slider' %}
-    <div class="about_inner">
-      <div class="about_box">
-          <img src="{{ block.settings.img | img_url: 'original'}}" />
-        </div>
-    </div> 
-   {% endif %}
-  {% endfor %}
-</div>
-
-
 {% schema %}
   {
-    "name": "About Slider",
-    "settings": [],
-    "blocks": [
-    "type": "slider",
-		"name": "slider",
-    "settings":[
-    {
-        "type": "image_picker",
-        "id": "img",
-        "label": "Image"
-    }
-
-    ]
-    ],
-    "presets":
-		[
-      {
-        "name":"About Slider"
-      }
-    ]
-
+    "name": "Section name",
+    "settings": []
   }
 {% endschema %}
 
