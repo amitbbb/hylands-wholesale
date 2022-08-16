@@ -434,6 +434,18 @@
     max-width: 60%;
     flex: 0 0 60%;
 }
+.cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .cell-product_quantity .cell-product_break .cell-product_quantity_save_main input#add {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    font-family: 'poppins-regular';
+    height: 53px;
+}
 
 /*  Responsive  */
 @media screen and (max-width: 1199px) {

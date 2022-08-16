@@ -952,3 +952,28 @@ $(document).ready(function(){
     });
   }
     })
+
+    var incrementPlus;
+var incrementMinus;
+
+var buttonPlus  = $(".shg-product-quantity-button-right");
+var buttonMinus = $(".shg-product-quantity-button-left");
+
+var incrementPlus = buttonPlus.click(function() {
+	var $n = $(this)
+		.parent(".product_quant")
+		.parent(".cell-product_add_quantity")
+		.find("#cell_qun_prod");
+	$n.val(Number($n.val())+1 );
+});
+
+var incrementMinus = buttonMinus.click(function() {
+		var $n = $(this)
+		.parent(".product_quant")
+		.parent(".cell-product_add_quantity")
+		.find("#cell_qun_prod");
+	var amount = Number($n.val());
+	if (amount > 0) {
+		$n.val(amount-1);
+	}
+});

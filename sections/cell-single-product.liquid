@@ -7,10 +7,10 @@
 
       <form action="/cart/add" method="post" enctype="multipart/form-data">
         <div class="product_varie">
-          {% if variant.available == true %}
-          <p> {{ variant.title }} for {{ variant.price | money_with_currency }}</p>
+          {% if product.available == true %}
+          <p>{{ product.price | money_with_currency }}</p>
           {% else %}
-          <p disabled="disabled" class="product-sold-out"> {{ variant.title }} Sold out</p>
+          <p disabled="disabled" class="product-sold-out">Sold out</p>
           {% endif %}
         </div>
 
@@ -28,7 +28,13 @@
           <div class="cell-product_break">
             <div class="cell-product_quantity_inner">
               <div class="cell-product_quantity_save_main ">
-                {% if variant.available == true %}
+                {% if variant.price == true %}
+                {{product.price | money_with_currency }}
+                {% endif %}
+
+
+
+                {% if product.available == true %}
                {% comment%} <p> {{ variant.title }} for {{ variant.price | money_with_currency }}</p>
                {% endcomment%}
                 <input type="submit" name="add" id="add" value="Add to Cart" class="button">
@@ -38,7 +44,7 @@
 
               </div>
               <div class="cell-product_quantity_subscrie_main">
-                <a href="{{ product.title }}" class="product-subscribe">Subscribe and Save</a>
+                <a href="/products/{{ product.handle }}" class="product-subscribe">Subscribe and Save</a>
 
               </div>
 
