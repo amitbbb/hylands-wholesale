@@ -51,9 +51,18 @@
       ],
       "settings": {
       }
+    },
+    "1660659466013e7d0a": {
+      "type": "about-left-right-text",
+      "settings": {
+        "heading": "A heritage of taking care of families",
+        "subheading": "Over a Century of Trusted Family Care",
+        "description": "<p>Our passion for natural wellness is rooted in 120+ years of time-tested and effective products, carefully crafted with the whole family in mind. From our early beginnings formulating innovative and gentle health remedies, to our modern day offering of natural medicines and preventative care, we strive to remain true to our roots, serving as a trusted source for high-quality ingredients and thoughtful family health care.<\/p><p><\/p><p>Our incredible wellness journey started out in the heart of downtown Los Angeles, when our company founder George H. Hyland recognized a need for naturally-derived and holistic health-care products. In an effort to bring his vision to life, George purchased a local pharmacy specializing in homeopathy, with the aim of creating premium and innovative health solutions to treat everyday ailments.<\/p><p>From our humble beginnings crafting wellness remedies in the 7th street pharmacy basement, to our modern-day expansion into a tried and true natural health brand, we have always remained steadfast in our mission to provide effective yet gentle solutions for all your family’s healthcare needs.<\/p><p>Preferring a holistic approach, we believe strongly in the body's ability to heal itself, which is why we love leveraging natural ingredients to stimulate powerful healing responses. Instead of simply masking symptoms, like many traditional medicines,our natural remedies are intelligently designed to safely and effectively work alongside your body to promote wellness and safely manage all of your symptoms.<\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1660659466013e7d0a"
   ]
 }
