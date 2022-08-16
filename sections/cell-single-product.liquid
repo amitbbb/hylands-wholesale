@@ -11,7 +11,7 @@
         <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
 
         <div class="product_varie">
-          {% if product.varients[0].available == true %}
+          {% if product.variants[0].available %}
           <p>{{ product.price | money_with_currency }}</p>
           {% else %}
           <p disabled="disabled" class="product-sold-out">Sold out</p>
@@ -32,7 +32,9 @@
           <div class="cell-product_break">
             <div class="cell-product_quantity_inner">
               <div class="cell-product_quantity_save_main ">
-                {% if product.varients[0].available == true %}
+               {% comment%} {% if product.varients[0].available == true %}
+               {% endcomment%}
+                {% if product.variants[0].available %}
                 <input type="submit" name="add" id="add" value="Add to Cart" class="button">
                 {% else %}
                 <button disabled="disabled" class="product-sold-out"> {{ variant.title }} Sold out</button>
