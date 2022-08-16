@@ -951,6 +951,33 @@ $(document).ready(function(){
         ]
     });
   }
+  if($('.about-history-templete .about_slider_box').length > 0) {
+    $('.about-history-templete .about_slider_box').slick({
+      infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    });
+  }
+
+
     })
 
     var incrementPlus;
