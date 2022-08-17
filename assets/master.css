@@ -119,6 +119,7 @@ footer.footer .footer-block--newsletter .footer__copyright {
 footer.footer .footer-block--newsletter {
     align-items: flex-start;
 }
+section.page-width.productPageWidth .product .product__info-wrapper.grid__item .formWrapper .single-product-form.rechargeWrap form .rewards_points,
 section.page-width.productPageWidth .product .product__info-wrapper.grid__item .inline-review-stars {
     display: none;
 }
