@@ -666,6 +666,50 @@
 .About-Image-With-Text .about-section-cards-wrapper:nth-child(even) {
     flex-direction: row-reverse;
 }
+.about-landing-pages .about-landing-pages-main {
+    margin-top: 148px;
+    padding: 0 42px;
+}
+.about-landing-pages .about-landing-pages-main h2 {
+    margin: 0;
+    padding-bottom: 43px;
+}
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a {
+    display: inline-block;
+    max-width: calc(33.333333333333336% - 13.333333333333334px);
+    width: 100%;
+}
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a img {
+        width: 100%;
+        min-height: 33vw;
+        object-fit: cover;
+    
+}
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a h3 {
+    font-size: 13px;
+    line-height: 5em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(27, 67, 136, 1);
+    font-family: 'Gotham';
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(27, 67, 136, 1);
+    border-radius: 0 0 12px 12px;
+    margin: 0;
+    position: relative;
+    top: -14px;
+    cursor: pointer;
+}
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a h3:hover {
+    background: #1b4388;
+    color: #fff;
+}
 
 
 /*  Responsive  */
