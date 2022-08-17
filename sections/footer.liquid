@@ -195,16 +195,18 @@
                         srcset= "{{ 'Header.svg' | asset_url }}, {{ 'Header.svg' | asset_url }} 2x"
                         src="{{ 'Header.svg' | asset_url }}"
                         alt="{{ block.settings.image.alt | escape }}"
-                        loading="lazy"
-                        
-                      >
+                        loading="lazy">
+                       <a href="http://www.greatplacetowork.com/certified-company/7009922" title="Rating and Review" target="_blank">
+                      <img class="review-certification" src="https://www.greatplacetowork.com/images/profiles/7009922/companyBadge.png" alt="Review" width="120">
+                      </a>
                     {%- else -%}
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
-                    
+                    {% comment %}
                     <p class="custom_para">
                       {{ block.settings.para }}
                     </p>
+                {% endcomment %}
                   </div>
                 {%- endcase -%}
             </div>
