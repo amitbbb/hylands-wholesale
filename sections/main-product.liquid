@@ -118,6 +118,7 @@
           {% render 'bv-inline-ratings' %}
         {% endcomment %}
           <!--Yotpo Star Rating - Product Page-->
+      {%comment%}
         <div class="inline-review-stars">
         <div class="yotpo-review-stars">
           <h3>REVIEWS</h3>
@@ -126,6 +127,7 @@
           </div>
         </div>
         </div>
+      {%endcomment%}
           <!--Yotpo Star Rating - Product Page-->
           {%- when 'price' -%}
         <div class="main-product-price">
@@ -307,6 +309,7 @@
               </div>
             </noscript>
         {%- when 'subscription_text' -%}
+      {%comment%}
         {% if block.settings.text != blank %}
         <div class="description_text">
           <div class="description_textInner">
@@ -316,7 +319,8 @@
           <div class="customRecharge"><p>&nbsp;</p></div>
         </div>
         {% endif %}
-        
+        {%endcomment%}
+
         <div class="formWrapper">
         {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
@@ -431,6 +435,7 @@
                         </svg>
                       </div>
                     </button>
+                    {%comment%}
                     <div class="rewards_points">
                       <p class="current-price">{{ product.price | money_without_currency }}</p>
                       <img src="//cdn.shopify.com/s/files/1/1533/0491/t/79/assets/1star-reward.png?v=15998884634463897863" class="star1">
@@ -442,6 +447,7 @@
                       </div>
                      </div>
                     </div>
+                    {%endcomment%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
@@ -482,11 +488,13 @@
           		{% assign isEnable = false %}
           	{% endif %}
           {% endfor %}
+          {%comment%}
             {% if isEnable == true %}
             <div class="locator_label">
               <p><a href="{{ block.settings.url }}"><img src="{{ 'locator.png' | asset_url }}" alt="locator"> <span>{{ block.settings.store_locator }}<span></a></p>
             </div>
             {% endif %}
+          {%endcomment%}
           {% endif %}
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
