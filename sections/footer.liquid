@@ -218,12 +218,29 @@
         <div class="footer__copyright caption">
 		<small class="copyright__content">{{ shop.name | link_to: routes.root_url }}, &copy; {{ 'now' | date: "%Y" }}</small>
         </div>
-        <div class="custom_link">
+            <div class="footer-center-text">
+    {% if section.settings.link != blank %}
+     <a href="{{section.settings.link}}">{{section.settings.tou}}</a>
+      {% else %}
+      {{section.settings.tou}}
+      {% endif %}
+
+    {% if section.settings.link != blank %}
+     <a href="{{section.settings.link2}}">{{section.settings.assess}}</a>
+           {% else %}
+      {{section.settings.assess}}
+      {% endif %}
+</div>
+    
+    
+{% comment %}
+<div class="custom_link">
                       <a href="{{section.settings.link}}">{{section.settings.tou}}</a>
         <a href="{{section.settings.link2}}">{{section.settings.assess}}</a>
 <!--           <a href="#">Privacy policy</a>   -->
                   	</div>
-        {% comment %}
+    
+        
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
