@@ -195,7 +195,7 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_desktop_mobile {
     border-top-right-radius: 20px;
 }
  footer.footer .footer-block--newsletter .footer__copyright{
-   margin-top: 15px;
+   margin-top: 15px !important;
    width: 100%;
    max-width: 100%;
    text-align: center;
