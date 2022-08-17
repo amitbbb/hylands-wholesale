@@ -374,7 +374,7 @@
     color: rgba(27, 67, 136, 1);
     font-size: 13px;
     opacity: 0.5;
-    border-style: 3px solid currentColor;
+    border: 3px solid currentColor;
     color: #fff;
     background-color: rgba(27, 67, 136, 1);
     text-decoration: none;
