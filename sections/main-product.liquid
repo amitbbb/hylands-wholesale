@@ -485,11 +485,13 @@
           		{% assign isEnable = false %}
           	{% endif %}
           {% endfor %}
+                  {% comment %}
             {% if isEnable == true %}
             <div class="locator_label">
               <p><a href="{{ block.settings.url }}"><img src="{{ 'locator.png' | asset_url }}" alt="locator"> <span>{{ block.settings.store_locator }}<span></a></p>
             </div>
             {% endif %}
+                  {% endcomment %}
           {% endif %}
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
