@@ -88,14 +88,14 @@
             "type": "link_list",
             "settings": {
               "heading": "About",
-              "menu": ""
+              "menu": "about-menu-bbb"
             }
           },
           "6e3bf290-289a-411f-9bf5-c5483e64fdbe": {
             "type": "link_list",
             "settings": {
               "heading": "HELP",
-              "menu": ""
+              "menu": "help-menu"
             }
           },
           "749a70e8-ab17-4002-ab44-d4669f072165": {
@@ -123,7 +123,7 @@
           "enable_language_selector": true,
           "payment_enable": false,
           "link": "",
-          "tou": "",
+          "tou": "<sup>1<\/sup>Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.<br><sup>2<\/sup>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "link2": "",
           "assess": ""
         }
