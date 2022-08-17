@@ -119,6 +119,9 @@ footer.footer .footer-block--newsletter .footer__copyright {
 footer.footer .footer-block--newsletter {
     align-items: flex-start;
 }
+section.page-width.productPageWidth .product .product__info-wrapper.grid__item .inline-review-stars {
+    display: none;
+}
 
 
 @media (max-width: 1440px){
