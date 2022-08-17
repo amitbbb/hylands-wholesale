@@ -59,10 +59,42 @@
         "subheading": "Over a Century of Trusted Family Care",
         "description": "<p>Our passion for natural wellness is rooted in 120+ years of time-tested and effective products, carefully crafted with the whole family in mind. From our early beginnings formulating innovative and gentle health remedies, to our modern day offering of natural medicines and preventative care, we strive to remain true to our roots, serving as a trusted source for high-quality ingredients and thoughtful family health care.<\/p><p><\/p><p>Our incredible wellness journey started out in the heart of downtown Los Angeles, when our company founder George H. Hyland recognized a need for naturally-derived and holistic health-care products. In an effort to bring his vision to life, George purchased a local pharmacy specializing in homeopathy, with the aim of creating premium and innovative health solutions to treat everyday ailments.<\/p><p>From our humble beginnings crafting wellness remedies in the 7th street pharmacy basement, to our modern-day expansion into a tried and true natural health brand, we have always remained steadfast in our mission to provide effective yet gentle solutions for all your family’s healthcare needs.<\/p><p>Preferring a holistic approach, we believe strongly in the body's ability to heal itself, which is why we love leveraging natural ingredients to stimulate powerful healing responses. Instead of simply masking symptoms, like many traditional medicines,our natural remedies are intelligently designed to safely and effectively work alongside your body to promote wellness and safely manage all of your symptoms.<\/p>"
       }
+    },
+    "1660735495f1200e6e": {
+      "type": "about-with-image-text",
+      "blocks": {
+        "03f21a2a-afe0-478a-8144-e44938679434": {
+          "type": "card",
+          "settings": {
+            "logoimg": "shopify:\/\/shop_images\/download_97b03320-6ab5-42fe-afc0-b4e6b7780e3b.png",
+            "heading": "Real ingredients. Real relief.",
+            "subheading": "<p>Our family’s innovative approach to homeopathic medicines has helped generations heal from everyday ailments with our gentle, all-natural relief.<\/p>",
+            "card_img": "shopify:\/\/shop_images\/download_54cba590-2c35-445d-9560-600eddb7cefc.jpg",
+            "image_text": "George H. Hyland created the first teething tablet in 1925."
+          }
+        },
+        "24a8d95a-f9d7-4c42-8a16-090f658bb808": {
+          "type": "card",
+          "settings": {
+            "logoimg": "shopify:\/\/shop_images\/Frame.png",
+            "heading": "Natural, effective products.",
+            "subheading": "<p>From newborns to seniors, Hyland’s is here to help everyone feel their very best whether it’s a leg cramp, earache, runny nose, or a restless night.<\/p>",
+            "card_img": "shopify:\/\/shop_images\/download_1_550d6db1-1345-4d5b-b23f-31cbf9d49ecf.jpg",
+            "image_text": "Hyland’s has operated in downtown Los Angeles since 1903."
+          }
+        }
+      },
+      "block_order": [
+        "03f21a2a-afe0-478a-8144-e44938679434",
+        "24a8d95a-f9d7-4c42-8a16-090f658bb808"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "1660659466013e7d0a"
+    "1660659466013e7d0a",
+    "1660735495f1200e6e"
   ]
 }
