@@ -56,6 +56,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_rel": "Shop",
+              "menu_image": "shopify:\/\/shop_images\/Bioplasma_cell_salt_combination.jpg",
               "menu_label": "SHOP CELL SALTS",
               "menu_link": "shopify:\/\/collections\/cell-salts"
             }
