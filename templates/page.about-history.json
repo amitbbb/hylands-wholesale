@@ -90,11 +90,49 @@
       ],
       "settings": {
       }
+    },
+    "166073996205e46686": {
+      "type": "about-landing-page",
+      "blocks": {
+        "765a9eca-f2c1-4391-b9c6-c8c6e9f8076e": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_1.jpg",
+            "btn_label": "Shop For Babies",
+            "btn_url": ""
+          }
+        },
+        "d1315767-062b-4825-90d3-4fea7d991194": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_2.jpg",
+            "btn_label": "Shop For Kids",
+            "btn_url": ""
+          }
+        },
+        "828f6115-3325-4c14-80c0-9289e76ac61f": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_3.jpg",
+            "btn_label": "Shop For Adults",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "765a9eca-f2c1-4391-b9c6-c8c6e9f8076e",
+        "d1315767-062b-4825-90d3-4fea7d991194",
+        "828f6115-3325-4c14-80c0-9289e76ac61f"
+      ],
+      "settings": {
+        "sec_head": "Trusted wellness for over a century"
+      }
     }
   },
   "order": [
     "main",
     "1660659466013e7d0a",
-    "1660735495f1200e6e"
+    "1660735495f1200e6e",
+    "166073996205e46686"
   ]
 }
