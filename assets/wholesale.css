@@ -681,6 +681,9 @@
 .about-landing-pages .about-landing-pages-main h2 {
     margin: 0;
     padding-bottom: 43px;
+    font-size: 38px;
+    font-family: 'Gotham';
+    line-height: 1.19em;
 }
 .about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards {
     display: flex;
@@ -699,6 +702,7 @@
     
 }
 .about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a h3 {
+    height: 65px;
     font-size: 13px;
     line-height: 5em;
     letter-spacing: 1px;
@@ -1224,6 +1228,19 @@
         }
         .about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper .landing-pages-cards a {
             margin: 10px 0;
+        }
+        .about-history-templete .about_slider_box button {
+            width: 40px;
+            height: 35px;
+        }
+        .about-history-templete .about_slider_box button.slick-next.slick-arrow {
+            right: 46px;
+        }
+        .about-history-templete .about_slider_box button.slick-prev.slick-arrow {
+            right: 85px;
+        }
+        .about-history-templete .about_text_box .about_text_right {
+            padding-top: 0;
         }
 
 }
