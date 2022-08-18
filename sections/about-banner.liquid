@@ -5,6 +5,10 @@
                      {% if block.settings.img != blank and block.type == 'slider' %}
                       <div class="about_image">
                             <img src="{{ block.settings.img | img_url: 'original'}}" ></span>
+                            {% if block.settings.slicktext != blank%}
+                            <h4>{{block.settings.slicktext}}</h4>
+                            {% endif%}
+                          
                         </div> 
                      {% endif %}
                     {% endfor %}
@@ -27,8 +31,12 @@
     "type": "image_picker",
     "id": "img",
     "label": "Image"
-   }
- 
+   },
+  {
+    "type": "text",
+    "id": "slicktext",
+    "label": "Add text in slider"
+  }
   ]
  }	 
 ],
