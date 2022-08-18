@@ -739,6 +739,9 @@
 .about-history-templete .about_slider_box .about_image {
     position: relative;
 }
+.about-history-templete .about_text_box .about_text_right p:last-child {
+    margin-bottom: 20px;
+}
 
 
 /*  Responsive  */
