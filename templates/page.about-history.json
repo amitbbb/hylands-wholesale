@@ -7,37 +7,43 @@
         "c2938a28-6fef-4b5d-9494-203302c43e17": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_3.jpg"
+            "img": "shopify:\/\/shop_images\/download_3.jpg",
+            "slicktext": ""
           }
         },
         "62a28ea3-e094-43fb-a448-b7e2eb3669f9": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_4.jpg"
+            "img": "shopify:\/\/shop_images\/download_4.jpg",
+            "slicktext": "Downtown Los Angeles, circa 1930"
           }
         },
         "b9e3118c-a041-4de9-8558-8f2bef7b980a": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_1_4c9ee3fc-5c4d-46b3-bb2f-ece4b27c4fe0.jpg"
+            "img": "shopify:\/\/shop_images\/download_1_4c9ee3fc-5c4d-46b3-bb2f-ece4b27c4fe0.jpg",
+            "slicktext": ""
           }
         },
         "1d4091c3-2152-4f0a-a457-f763769de891": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_2.jpg"
+            "img": "shopify:\/\/shop_images\/download_2.jpg",
+            "slicktext": ""
           }
         },
         "0c1605eb-281c-4583-b690-02a103d98790": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_0d60e035-d87a-4c89-b330-7559563e3b79.jpg"
+            "img": "shopify:\/\/shop_images\/download_0d60e035-d87a-4c89-b330-7559563e3b79.jpg",
+            "slicktext": ""
           }
         },
         "d21a4a05-2fca-42f9-b2c2-3c29142b8b3c": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/download_5.jpg"
+            "img": "shopify:\/\/shop_images\/download_5.jpg",
+            "slicktext": ""
           }
         }
       },
