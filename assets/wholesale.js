@@ -76,3 +76,8 @@ $( document ).ready(function() {
     
   }
 });
+
+  $("body").on("click", ".infoTitle", function(){
+    $(this).next(".infoText").stop().slideToggle();
+    $(this).toggleClass('active');
+  }); 
