@@ -106,7 +106,7 @@ p.banner__subheading{
     .hero-text-box{
         background: #fff;
         position: absolute;
-        top: 47%;
+        top: 50%;
         transform: translateY(-50%);
         border-radius: 12px;
         max-width: 856px;
@@ -160,7 +160,7 @@ p.banner__subheading{
     animation-name: marquee;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-	animation-duration: 1000s;
+	animation-duration: 50s;
 	color: #fff;
 	letter-spacing: 1px;
     padding-top: 28px;
@@ -777,7 +777,7 @@ p.banner__subheading{
           }
       }
       &:nth-last-child(-n+2){
-        margin-top: 85px;
+        margin-top: 100px;
         @media screen and (max-width: 767px){
           margin-top: 0px;
         }
@@ -800,11 +800,11 @@ p.banner__subheading{
         display: block;
         margin: 0;
         padding: 10px 0;
-        font-size: 14.9px!important;
+        font-size: 13px!important;
         line-height: 41.2px!important;
         letter-spacing: .78px!important;
         text-align: center;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: uppercase;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -1904,14 +1904,6 @@ body.index{
 
 .hylands-naturals-templete{
   padding: 65px 75px;
-  padding-bottom: 0;
-  @media screen and (max-width: 991px){
-    padding-left: 25px;
-    padding-right: 25px;
- }
-  @media screen and (max-width: 768px){
-    padding-bottom: 0;    
-  }
   .hyland-naturals{
     align-items: center;
     h1{
@@ -1919,99 +1911,20 @@ body.index{
       text-align: center;
       font-size: 80px;
       line-height: normal;
-      margin-bottom: 65px;
-      @media screen and (max-width: 991px){
-        font-size: 40px;
-      }
+      margin-bottom: 50px;
     }
     .naturals-wrapper{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: center;
       .left-side, .right-side{
         width: 30%;
-        @media screen and (max-width: 767px){
-         width: 100%; 
-        }
-        .text-box{
-          text-align: center;
-          padding-bottom: 40px;
-          &:last-of-type{
-            padding-bottom: 0;
-          }
-          @media screen and (max-width: 767px){
-            padding-bottom: 15px;
-          }
-          
-          &:last-of-type{
-            @media screen and (max-width: 767px){
-            padding-bottom: 0px;
-          }
-          }
-          h3{
-            font-size: 24px;
-            line-height: 1.17em;
-            letter-spacing: 1px;
-            font-family: 'Gotham';
-            margin: 0;
-          }
-          p{
-            margin-top: 4px;
-            margin-bottom: 20px;
-            font-size: 18px;
-            letter-spacing: 1px;
-            line-height: normal;
-            @media screen and (max-width: 1024px){
-              line-height: 30px;
-            }
-          }
-        }
       }
       .center-side{
         width: 40%;
         position: relative;
-        @media screen and (max-width: 767px){
-          width: 100%;
-          margin: 25px 0;
-          margin-bottom: 40px;
-        }
         img{
           width: 100%;
-          display: block;
-        }
-        .blue-bird{
-          display: block!important;
-          &:before {
-            content: "";
-            position: absolute;
-            z-index: 9;
-            width: 130px;
-            height: 120px;
-            display: block;
-            top: 55%;
-            right: 0px;
-            background-image: url('blue-bird.svg');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center center;
-            @media screen and (max-width: 1367px){
-              width: 110px;
-              height: 100px;
-            }
-            @media screen and (max-width: 1025px){
-              width: 70px;
-              height: 60px;
-            }
-            @media screen and (max-width: 769px){
-              width: 60px;
-              height: 50px;
-            }
-            @media screen and (max-width: 767px){
-              top: 49%;
-              right: -16px;
-            }
-          }
         }
         &:before {
           content: '';
@@ -2140,215 +2053,3 @@ body.index{
    }
  } 
 }
-
-
-
-
-/*Help Faq Page*/
-.help-faq-templete{
-  .help-faq-page{
-    padding-top: 100px;
-    padding-bottom: 239px;
-    padding-left: 42px;
-    padding-right: 42px;
-    @media screen and (max-width: 991px){
-      padding-bottom: 100px;
-    }
-    @media screen and (max-width: 767px){
-      padding: 50px 20px 100px;
-    }
-    h1{
-      font-size: 60px;
-      letter-spacing: normal;
-      line-height: normal;
-      text-align:center;
-      margin: 0;
-      margin-bottom: 19px;
-      @media screen and (max-width: 767px){
-        font-size: 38px;
-      }
-    }
-    p.subhead{
-      font-size: 24px;
-      line-height: 1.33em;
-      text-align: center;
-      font-family: 'Montserrat';
-      @media screen and (max-width: 767px){
-        font-size: 16px;
-        letter-spacing: normal;
-        padding-bottom: 32px;
-      }
-    }
-    .faq-block-wrapper{
-      margin-top: 90px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      .faq-block{
-        width: calc(33.333333333333336% - 25.333333333333332px);
-        padding: 170px 85px 210px;
-        position: relative;
-        border-left: 1px solid #fff!important;
-        border-top: 1px solid #fff!important;
-        border-right: 1px solid #fff!important;
-        border-radius: 17px;
-        background: #f8f7f9;
-        @media screen and (max-width: 1700px){
-          padding: 100px 55px 145px;
-        }
-        @media screen and (max-width: 1200px){
-          padding: 170px 30px 165px;
-          padding-top: 100px;
-        }
-        @media screen and (max-width: 1024px){
-          width: calc(50% - 25px);
-          margin-bottom: 20px;
-        }
-        @media screen and (max-width: 768px){
-          width: 100%;
-        }
-        @media screen and (max-width: 767px){
-          padding: 50px 30px 117px;
-          padding-top: 102px;
-        }
-        h3{
-          font-size: 40px;
-          font-family: 'Gotham';
-          letter-spacing: normal;
-          line-height: normal;
-          font-weight: bold;
-          margin: 0;
-          max-width: 230px;
-          @media screen and (max-width: 1200px){
-            font-size: 30px;
-          }
-        }
-        p{
-          font-size: 26px;
-          font-weight: 400!important;
-          line-height: normal;
-          letter-spacing: normal;
-          text-align:left;
-          margin-top: 15px;
-          @media screen and (max-width: 1200px){
-            font-size: 20px;
-          }
-          @media screen and (max-width: 767px){
-            line-height: 1.6em;
-          }
-          
-        }
-        a{
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-          left: 0;
-          text-align: center;
-          font-size: 19px;
-          font-family: Gotham;
-          display: block;
-          background: #fff;
-          line-height: 3.32em;
-          letter-spacing: 1.37px;
-          color: #1b4388;
-          border-bottom-right-radius: 10px;
-          border-bottom-left-radius: 10px;
-          border: 1px solid #1b4388;
-        }
-        &:hover{
-          background: linear-gradient(-140deg,#daf3fd,#fbede9)!important;
-          border-left: 1px solid #1b4388!important;
-          border-top: 1px solid #1b4388!important;
-          border-right: 1px solid #1b4388!important;
-          border-radius: 17px;
-          a{
-            background: #1b4388;
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
-  .accordion-faq{
-    padding: 50px 348px;
-    @media screen and (max-width: 1200px){
-       padding: 50px 200px;
-    }
-    @media screen and (max-width: 991px){
-       padding: 50px 42px;
-    }
-    @media screen and (max-width: 767px){
-       padding: 50px 26px;
-    }
-    .info-accordion{
-      h2{
-        margin: 0;
-        margin-bottom: 30px;
-        font-family: Gotham;
-        font-weight: 600;
-        letter-spacing: unset;
-        font-size: 40px;
-        line-height: 1.6;
-      }
-      .infoList{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        li{
-          &:nth-child(1){
-            border-top: 1px solid #1b4388;
-          }
-          border-bottom: 1px solid #1b4388;
-          h3{
-              margin: 0;
-              font-size: 24px;
-              line-height: 50px;
-              font-family: Gotham;
-              letter-spacing: 1px;
-              padding: 15px 50px 15px 11px;
-              position:relative;
-              cursor:pointer;
-              @media screen and (max-width: 767px){
-                line-height: 30px;
-                font-size: 20px;
-                letter-spacing: 0;
-              }
-              &:before{
-                content: "";
-                background-image: url('right-arrow1.svg')!important;
-                background-repeat: no-repeat!important;
-                transform: rotate(90deg) translateX(-50%)!important;
-                width: 24px;
-                height: 24px;
-                position: absolute;
-                right: 10px;
-                top: 50%;
-                background-size: 100%;
-              }
-          }
-          h3.active{
-            &:before{
-              transform: rotate(-90deg)!important;
-              right: 0px;
-            }
-          }
-          .infoText{
-              padding: 16px 0 30px 32px;
-              margin-top: 7px;
-              font-size: 16px;
-              line-height: 1.67em;
-              letter-spacing: 1px;
-              font-family: Gotham;
-              color: #1b4388;
-              @media screen and (max-width: 767px){
-                padding: 16px 0 30px 16px;
-              }
-          }
-        }
-      }
-    }
-  }
-}
-
-
-/*Help Faq end*/
