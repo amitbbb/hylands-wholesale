@@ -432,11 +432,13 @@
           {% render 'icon-account' %}
           {% endcomment %}
           <img src="{{ "user.svg" | asset_url }}" alt="Search">
+          {% comment %}
           <ul class="account-list">
             <li></li>
             <li></li>
             <li></li>
           </ul>
+        {% endcomment %}
           <span class="visually-hidden">
             {%- liquid
               if customer
