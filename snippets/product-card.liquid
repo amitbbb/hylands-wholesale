@@ -29,7 +29,7 @@
           
           {% if product %}
           <a href="{{ product_card_product.url | within: collection }}" class="full-unstyled-link js-collection-item-cart-add" data-id="{{product_card_product.selected_or_first_available_variant.id}}" {% if product_card_product.metafields.line_item.delayed_shipping != blank %} data-shipping-property="{{product_card_product.metafields.line_item.delayed_shipping}}"{% endif %}>
-            {{ product_card_product.title }}
+            {%comment%}{{ product_card_product.title | escape }}{%endcomment%} BUY NOW
           </a>
           {% else %}
           <a href="{{ product_card_product.url | within: collection }}" class="full-unstyled-link js-collection-item-cart-add" data-id="{{product_card_product.variants[0].id}}" {% if product_card_product.metafields.line_item.delayed_shipping != blank %} data-shipping-property="{{product_card_product.metafields.line_item.delayed_shipping}}"{% endif %}>
