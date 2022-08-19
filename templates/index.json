@@ -85,7 +85,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/kids-category.png",
             "btn_label": "Kids",
-            "btn_url": "https:\/\/hylands.com\/pages\/kids"
+            "btn_url": "https:\/\/wholesale.hylands.com\/pages\/kids"
           }
         },
         "87487367-3806-4e63-9a0a-be44acf0a104": {
@@ -93,7 +93,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/adults-category.png",
             "btn_label": "Adult",
-            "btn_url": "https:\/\/hylands.com\/pages\/adults"
+            "btn_url": "https:\/\/wholesale.hylands.com\/pages\/adults"
           }
         },
         "8dcee4c4-dd9a-44f9-9e4c-680eceb56653": {
@@ -101,7 +101,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/athletes-category.png",
             "btn_label": "Athletes",
-            "btn_url": "https:\/\/hylands.com\/pages\/"
+            "btn_url": "https:\/\/wholesale.hylands.com\/pages\/"
           }
         }
       },
