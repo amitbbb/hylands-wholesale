@@ -16,8 +16,11 @@
           "settings": {
             "heading": "Find a remedy for every type of sleeplessness.",
             "subheading": "Emotions and worry keeping you up at night? Our Sleep remedy features Ignatia as its hero ingredient to promote comfort and relief from nervousness.",
+            "card_img": "shopify:\/\/shop_images\/1_d1e73156-4436-417f-abd1-4e78a3d65884.png",
             "shop_all": "SHOP SLEEP",
-            "shop_all_url": "#"
+            "shop_all_url": "#",
+            "tag_head": "",
+            "tag_name": ""
           }
         },
         "2fcd3d45-bee0-47c2-8a05-59293c0e6764": {
@@ -26,7 +29,9 @@
             "heading": "Tried-and-true botanicals to support great rest.",
             "subheading": "Formulated primarily from botanicals, our Rest remedy addresses the all-too-common experience of difficulty falling asleep, regardless of the cause.",
             "shop_all": "SHOP REST",
-            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-rest"
+            "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/stress-sleep\/products\/hylands-rest",
+            "tag_head": "",
+            "tag_name": ""
           }
         },
         "71574c2e-16e2-485d-9b35-e01b8a384ec9": {
@@ -35,7 +40,9 @@
             "heading": "Tackle routine cases of sleeplessness.",
             "subheading": "For routine cases, Calms Forte will work quickly to get you back to sleep. It’s our blend of botanicals and minerals formulated to relieve sleeplessness caused by stress and nervous tension.",
             "shop_all": "SHOP CALMS FORTE",
-            "shop_all_url": "#"
+            "shop_all_url": "#",
+            "tag_head": "",
+            "tag_name": ""
           }
         }
       },
