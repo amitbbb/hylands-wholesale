@@ -33,7 +33,7 @@
           </a>
           {% else %}
           <a href="{{ product_card_product.url | within: collection }}" class="full-unstyled-link js-collection-item-cart-add abc" data-id="{{product_card_product.variants[0].id}}" {% if product_card_product.metafields.line_item.delayed_shipping != blank %} data-shipping-property="{{product_card_product.metafields.line_item.delayed_shipping}}"{% endif %}>
-            {%comment%}{{ product_card_product.title | escape }}{%endcomment%} BUY NOW
+            {%comment%}{{ product_card_product.title | escape }}{%endcomment%}
           </a>
           {% endif %}
         </h3>
