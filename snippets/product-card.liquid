@@ -25,11 +25,11 @@
       {%- endif -%}
 
       {%- if product_card_product.featured_media -%}
-        <h3 class="card-information__text h5 abc">
+        <h3 class="card-information__text h5">
           
           {% if product %}
           <a href="{{ product_card_product.url | within: collection }}" class="full-unstyled-link js-collection-item-cart-add" data-id="{{product_card_product.selected_or_first_available_variant.id}}" {% if product_card_product.metafields.line_item.delayed_shipping != blank %} data-shipping-property="{{product_card_product.metafields.line_item.delayed_shipping}}"{% endif %}>
-            {%comment%}{{ product_card_product.title | escape }}{%endcomment%} BUY NOW
+            {{ product_card_product.title }}
           </a>
           {% else %}
           <a href="{{ product_card_product.url | within: collection }}" class="full-unstyled-link js-collection-item-cart-add" data-id="{{product_card_product.variants[0].id}}" {% if product_card_product.metafields.line_item.delayed_shipping != blank %} data-shipping-property="{{product_card_product.metafields.line_item.delayed_shipping}}"{% endif %}>
@@ -106,7 +106,7 @@
 
         <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
           <a href="{{product_card_product.url | within: collection}}">
-          <div class="media media--transparent media--{{ media_size }} {% comment %}media--hover-effect{% endcomment %} custom-hover"
+          <div class="media media--transparent media--{{ media_size }} media--hover-effect custom-hover"
             {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}
           >
             {% if show_desc == "Yes" %}
@@ -117,12 +117,17 @@
                 <p class="prodcut-desc">{{ dec | escape | truncatewords: 10 }}</p>
             </div>
             {% endcomment %}
-            {%comment%}
+            {% if product_card_product.price_varies %}
+            <div class="product-price-badge priceRange">
+              <span class="money-with-range" data-product-id="{{ product_card_product.id }}" data-text="From {{ product_card_product.price_min | money }}">From {{ product_card_product.price_min | money }}
+              </span>
+            </div>
+                {% else %}
             <div class="product-price-badge">
               <span class="money" data-product-id="{{ product_card_product.id }}">{{ product_card_product.variants[0].price |money }}
               </span>
             </div>
-            {%endcomment%}
+                {% endif %}
 
             {% endif %}
               <img
