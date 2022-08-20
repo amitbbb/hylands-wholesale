@@ -8,7 +8,7 @@
         "hero_heading": "Hit your new personal bests",
         "hero_sub_heading": "Keep moving with natural relief for every step of your fitness journey and beyond.",
         "hero_button": "SHOP PRODUCTS",
-        "hero_btn_url": "https:\/\/shop.hylands.com\/collections\/athletes",
+        "hero_btn_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "hero_btn_color": "#fff",
         "hero_btn_h_color": "#1b4388"
       }
@@ -21,7 +21,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/2-1_f56fa8f4-19ac-4335-ab10-d61ce68534a8.png",
             "btn_label": "PAIN",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/pain"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "b4d8a235-07fe-422c-836a-a95ecc1bbc1c": {
@@ -29,7 +29,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/2-2.png",
             "btn_label": "Recovery",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/pain"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -85,7 +85,7 @@
         "shop_btn": "SHOP NOW",
         "shop_btn_url": "https:\/\/shop.hylands.com\/collections\/pain",
         "shop_all": "SHOP ALL",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/pain"
+        "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/all"
       }
     },
     "165953413601339e09": {
@@ -95,7 +95,7 @@
         "main_head": "Train harder, recover faster",
         "bodycopy": "<p>Stop Your Cramp, Not Your Day. At Hyland's, we’re big believers in the power of movement, which is why we want your body to feel its best. From our Leg Cramps family of products to post-workout relief, we have your training needs covered, so you can stay in the zone.<\/p>",
         "shop_all": "SHOP PRODUCTS",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/recovery",
+        "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "right_img": "shopify:\/\/shop_images\/4-1_92615b74-d9c8-443a-beb6-9fc603d7d6ed.png"
       }
     },
