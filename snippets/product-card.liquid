@@ -62,9 +62,9 @@
           <span class="visually-hidden">{{ product_card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
         </p>
       {%- endif -%}
-      
+      {% comment %}
       {% render 'price', product: product_card_product, price_class: '' %}
-      
+      {% endcomment %}
     </div>
     {% if show_desc == "Yes" %}
     <div class="card-content">
