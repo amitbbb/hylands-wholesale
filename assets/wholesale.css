@@ -845,6 +845,9 @@
     .cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .cell-product_quantity .cell-product_add_quantity .product_quant {
         width: 100%;
     }
+    .cell-salt-templete .hero-banner .hero-text-box h1 {
+        font-size: 50px;
+    }
 
 }
 @media screen and (max-width: 1199px) {
