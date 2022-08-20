@@ -130,6 +130,9 @@ section.page-width.productPageWidth .product .product__info-wrapper.grid__item .
     {
         font-size: 70px;
     }
+    .contact_main .contact_main-inner {
+        padding: 0 100px;
+    }
 
 }
 
@@ -277,7 +280,8 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_desktop_mobile {
             display: none;
         }
         .contact_main .contact_main-inner .contact-main_div {
-                     min-height: 100px;
+                     min-height: 264px;
+                     max-height: 100%;
         }
         body.contact.new .hero-banner-main {
             padding-left: 19px;
