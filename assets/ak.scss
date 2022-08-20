@@ -811,7 +811,11 @@ cart-notification a {
     padding-right: 42px;
   }
 }
-
+.product-price-badge.priceRange{
+    width: auto!important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .product-price-badge {
   font-size: 13px;
   font-family: 'Gotham';
