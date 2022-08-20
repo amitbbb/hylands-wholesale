@@ -8,21 +8,21 @@
           "type": "tabs",
           "settings": {
             "tab_text": "LEG PAIN",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/adults-leg-pain"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "df327e62-1ada-4a47-918d-ef94b6de73ec": {
           "type": "tabs",
           "settings": {
             "tab_text": "CELL SALTS",
-            "tab_url": "https:\/\/hylands.com\/collections\/cell-salts"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "392a77d6-b10c-409a-a200-e3970819e6cd": {
           "type": "tabs",
           "settings": {
             "tab_text": "All ADULTS products",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/adults"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -42,7 +42,7 @@
         "hero_heading": "Where stress relief is always natural",
         "hero_sub_heading": "Our Stress Busters gummies are carefully crafted to help you relax and find focus with premium natural ingredients.",
         "hero_button": "SHOP PRODUCTS",
-        "hero_btn_url": "https:\/\/hylands.com\/products\/stress-busters-gummies",
+        "hero_btn_url": "https:\/\/wholesale.hylands.com\/products\/stress-busters-gummies",
         "hero_btn_color": "#FFFFFF",
         "hero_btn_h_color": "#1b4388"
       }
@@ -56,7 +56,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/1.png",
             "btn_label": "IMMUNITY BOOST",
-            "btn_url": "https:\/\/hylands.com\/collections\/adults-gummies"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "3c0f1666-d4b8-48ac-93a4-3b6c3cc0f835": {
@@ -65,7 +65,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/2.png",
             "btn_label": "LEG PAIN",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/adults-leg-pain"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "5f49220a-5c19-4753-acf7-4c9422a5eda1": {
@@ -74,7 +74,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/3.png",
             "btn_label": "STRESS & SLEEP",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/stress-sleep"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "8750a323-9f7c-4a29-8d65-0d93688560d5": {
@@ -83,7 +83,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/ear.png",
             "btn_label": "EARACHES",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/adults-earache"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "f533453e-bbca-4e04-8f61-5e5750a36e8b": {
@@ -92,7 +92,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/must.png",
             "btn_label": "ACTIVE LIFESTYLE",
-            "btn_url": "https:\/\/hylands.com\/collections\/athletes"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "22de760a-8ec6-4117-9498-35553528c1c9": {
@@ -101,7 +101,7 @@
             "best_seller": false,
             "prod_img": "shopify:\/\/shop_images\/6.png",
             "btn_label": "SMOKING CESSATION",
-            "btn_url": "https:\/\/shop.hylands.com\/collections\/adult-smoking-cessation"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -161,7 +161,7 @@
         "sec_head": "Hyland's Natural Pain Relief",
         "sec_subhead": "",
         "shop_btn": "SHOP NOW",
-        "shop_btn_url": "https:\/\/shop.hylands.com\/collections\/pain-relief",
+        "shop_btn_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "shop_all": "SHOP NOW",
         "shop_all_url": "https:\/\/shop.hylands.com\/collections\/pain-relief"
       }
@@ -173,7 +173,7 @@
         "main_head": "You and your family deserve the best",
         "bodycopy": "<p>Being a mom is the most important job there is, which is why we want to support you and your baby through each and every moment. Whether you're looking for natural baby products, searching for good advice, or just need a pick-me-up, we'll be here to guide you every step of the way.<\/p>",
         "shop_all": "SHOP PRODUCTS",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/hylands-baby",
+        "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "right_img": "shopify:\/\/shop_images\/right.png"
       }
     },
