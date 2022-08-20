@@ -8,21 +8,21 @@
           "type": "tabs",
           "settings": {
             "tab_text": "COLD & COUGH",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/kids-cold-cough"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "56e1f14f-574f-44b2-a4e4-e7bdd71d4702": {
           "type": "tabs",
           "settings": {
             "tab_text": "Pain relief",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/kids-pain"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "bc2bb3c7-b5b3-40a2-ae38-b3ad63523007": {
           "type": "tabs",
           "settings": {
             "tab_text": "ALL KIDS PRODUCTS",
-            "tab_url": "https:\/\/hylands.com\/collections\/hylands-4-kids"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -42,7 +42,7 @@
         "hero_heading": "Keep your kids healthy and happy",
         "hero_sub_heading": "Our Organic Elderberry Plus vitamin gummies are the yummiest way to help boost your kids’ immunity.",
         "hero_button": "SHOP PRODUCTS",
-        "hero_btn_url": "https:\/\/shop.hylands.com\/collections\/kids-gummies\/products\/kids-organic-elderberry-plus-gummies",
+        "hero_btn_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "hero_btn_color": "#1b4388",
         "hero_btn_h_color": "#ffffff"
       }
@@ -54,6 +54,7 @@
           "type": "card",
           "settings": {
             "best_seller": true,
+            "badges": "",
             "product_item": "hylands-4-kids-cold-n-cough"
           }
         },
@@ -61,6 +62,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-4-kids-nighttime-cold-n-cough"
           }
         },
@@ -68,6 +70,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-4-kids-pain-relief"
           }
         },
@@ -75,6 +78,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-4-kids-calm-n-restful"
           }
         },
@@ -82,6 +86,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-4-kids-nighttime-cold-n-cough"
           }
         }
@@ -109,7 +114,7 @@
             "bg_img": "shopify:\/\/shop_images\/2-2webp.png",
             "block_heading": "Hyland’s Pain Relief",
             "btn_label": "SHOP NOW",
-            "btn_url": "https:\/\/hylands.com\/collections\/kids-pain"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "8e0aa252-3804-4b8a-aebf-0315133bd5ba": {
@@ -118,7 +123,7 @@
             "bg_img": "shopify:\/\/shop_images\/2-1.png",
             "block_heading": "Hyland’s Cold &amp; Cough",
             "btn_label": "SHOP NOW",
-            "btn_url": "https:\/\/hylands.com\/collections\/kids-cold-cough"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -172,6 +177,8 @@
         "left_img": "shopify:\/\/shop_images\/3-1.png",
         "sec_head": "No funny business",
         "sec_subhead": "You can always trust that our natural medicines are free of side effects and safe for all ages. Meet some of our natural superstars.",
+        "shop_btn": "",
+        "shop_btn_url": "",
         "shop_all": "SHOP ALL",
         "shop_all_url": ""
       }
@@ -184,7 +191,7 @@
         "main_head": "Caring for little ones for over a century",
         "bodycopy": "<p>We believe your little ones deserve the best, which is why we’ve focused on formulating gentle and safe kids' medicines for well over a century. While we love caring for kiddos, we’re also here for parents. If you’re searching for advice on natural kids' medicines, we’re here to help!<\/p>",
         "shop_all": "SHOP PRODUCTS",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/hylands-4-kids",
+        "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "right_img": "shopify:\/\/shop_images\/4-1.png",
         "cartoon1": "shopify:\/\/shop_images\/y-bird-withcloud.png"
       }
