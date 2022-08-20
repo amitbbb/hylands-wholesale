@@ -1403,7 +1403,13 @@
         .cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .cell-product_quantity .cell-product_break .cell-product_quantity_inner button.product-sold-out {
             height: 57px;
         }
-
+        .contact_report_issue .contact_report button {
+            width: 100%;
+        }
+        .contact_report_issue .contact_report {
+            padding-left: 19px;
+            padding-right: 19px;
+        }
 }
 
 @media (max-width: 749px){
