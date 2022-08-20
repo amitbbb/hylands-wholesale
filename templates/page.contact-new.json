@@ -31,35 +31,11 @@
         "email": "Email Us",
         "email1": "care@hylands.com"
       }
-    },
-    "1660993196d1a9f162": {
-      "type": "contact-report",
-      "blocks": {
-        "4bdcdf95-6b22-4c8b-a25c-bd62f7f48d8d": {
-          "type": "contac_report",
-          "settings": {
-            "report": "Report a Quality Issue"
-          }
-        },
-        "72b78dd2-9e42-485e-8c72-2216483b6e7e": {
-          "type": "contac_report",
-          "settings": {
-            "report": "Report a Possible Side Effect"
-          }
-        }
-      },
-      "block_order": [
-        "4bdcdf95-6b22-4c8b-a25c-bd62f7f48d8d",
-        "72b78dd2-9e42-485e-8c72-2216483b6e7e"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "1659702663b3ca9200",
     "1659703342e3be8962",
-    "1659705174ada1c2dc",
-    "1660993196d1a9f162"
+    "1659705174ada1c2dc"
   ]
 }
