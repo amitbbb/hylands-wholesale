@@ -1,0 +1,37 @@
+<div class="contact_report">
+    {%- for block in section.blocks -%}
+    <button class="contact_open contact_issue_btn" >{{block.settings.report}}</button>
+    {% endfor %}
+
+</div>
+
+
+
+{% schema %}
+{
+ "name": "Contact Report Issue",
+ "tag": "section",
+ "class": "spaced-section contact_report_issue",
+ "settings": [],
+ "blocks":[
+ {
+    "type": "contac_report",
+    "name": "Contact Report",
+    "settings": [
+      {
+        "type":"text",
+        "id": "report",
+        "label": "Text"
+    }
+]
+}
+ ],
+
+ "presets": [
+   {
+     "name": "Contact Report Issue"
+   }
+ ]
+}
+{% endschema %}
+

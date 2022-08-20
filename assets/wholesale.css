@@ -794,6 +794,29 @@
     display: flex;
     flex-direction: column;
 }
+.contact_report_issue .contact_report {
+    position: relative;
+    text-align: center;
+    margin-top: 93px;
+}
+
+.contact_report_issue .contact_report button {
+    display: block;
+    text-align: center;width:425px;
+    margin: 10px auto;
+    color: #1b4388;
+    background-color: white;
+    border: 1px solid #1b4388;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.contact_report_issue .contact_report button:hover {
+    color: white;
+  background-color: #1b4388;
+  border: 1px solid #1b4388;
+}
 
 
 /*  Responsive  */
