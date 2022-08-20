@@ -8,21 +8,21 @@
           "type": "tabs",
           "settings": {
             "tab_text": "COLD &amp; COUGH",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/babies-cold-cough"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "4b9f0720-6197-423f-a40a-42994f6e1e22": {
           "type": "tabs",
           "settings": {
             "tab_text": "TEETHING",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/babies-oral-pain"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "475df642-d208-42f3-a67d-c53c7a55aaa0": {
           "type": "tabs",
           "settings": {
             "tab_text": "ALL BABY PRODUCTS",
-            "tab_url": "https:\/\/shop.hylands.com\/collections\/hylands-baby"
+            "tab_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -42,7 +42,7 @@
         "hero_heading": "Soothe your baby with natural relief",
         "hero_sub_heading": "Make their morning and bedtime routines much more pleasant with gentle natural ingredients.",
         "hero_button": "SHOP PRODUCTS",
-        "hero_btn_url": "https:\/\/shop.hylands.com\/collections\/hylands-baby",
+        "hero_btn_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "hero_btn_color": "#1b4388",
         "hero_btn_h_color": "#ffffff"
       }
@@ -54,6 +54,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-oral-pain-relief"
           }
         },
@@ -61,6 +62,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-mucus-plus-cold-relief"
           }
         },
@@ -68,6 +70,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-cough-syrup"
           }
         },
@@ -75,6 +78,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-nighttime-oral-pain-relief"
           }
         },
@@ -82,6 +86,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-tiny-cold-tablets"
           }
         },
@@ -89,6 +94,7 @@
           "type": "card",
           "settings": {
             "best_seller": false,
+            "badges": "",
             "product_item": "hylands-baby-mucus-plus-cold-relief-day-and-night-value-pack"
           }
         }
@@ -117,7 +123,7 @@
             "bg_img": "shopify:\/\/shop_images\/bby.png",
             "block_heading": "Hyland’s Baby Cold &amp; Cough",
             "btn_label": "SHOP NOW",
-            "btn_url": "https:\/\/hylands.com\/collections\/babies-cold-cough"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         },
         "e93c2853-f868-409d-916d-5818702c73b7": {
@@ -126,7 +132,7 @@
             "bg_img": "shopify:\/\/shop_images\/bby2.png",
             "block_heading": "Hyland’s Baby Teething",
             "btn_label": "SHOP NOW",
-            "btn_url": "https:\/\/hylands.com\/collections\/babies-oral-pain"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
           }
         }
       },
@@ -180,6 +186,8 @@
         "left_img": "shopify:\/\/shop_images\/bby-side.png",
         "sec_head": "Hyland's Calming and Soothing",
         "sec_subhead": "Help your little ones find comfort and relief with Hyland's natural products.",
+        "shop_btn": "",
+        "shop_btn_url": "",
         "shop_all": "SHOP ALL",
         "shop_all_url": "https:\/\/shop.hylands.com\/collections\/hylands-baby"
       }
@@ -192,7 +200,7 @@
         "main_head": "A little something for Moms",
         "bodycopy": "<p>Your mind and body deserve to feel their best, which is why for over 120 years, we've worked hard to create effective natural remedies appropriate for all bodies. We believe everyone should feel alive, radiant, and pain-free; a belief that has inspired us to spread the love by supporting your wellness journey.<\/p>",
         "shop_all": "SHOP PRODUCTS",
-        "shop_all_url": "https:\/\/shop.hylands.com\/collections\/stress-sleep",
+        "shop_all_url": "https:\/\/wholesale.hylands.com\/collections\/all",
         "right_img": "shopify:\/\/shop_images\/bbyright.png",
         "cartoon1": "shopify:\/\/shop_images\/btrfly2_f5425ef0-dfc4-472f-be34-b00126bf30a7.png"
       }
