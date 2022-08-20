@@ -33,7 +33,7 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_banner_mobile {
     max-width: calc(50% - 20px);
     width: 100%;
     padding: 60px 80px 100px;
-    min-height: 470px;
+    min-height: 473px;
     background: #f8f7f9;
     border: 1px solid #f8f7f9;
     border-radius: 14px 14px 0 0;
@@ -52,7 +52,7 @@ body.page.contact.new .hero-banner-main .hero-banner img.hyland_banner_mobile {
 
 .contact_main .contact_main-inner .contact-main_div a {
     position: absolute;
-    bottom: -40px;
+    top: 100%;
     width: 100%;
     font-size: 20.5px;
     font-weight: 700;
