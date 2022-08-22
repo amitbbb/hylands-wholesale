@@ -860,6 +860,7 @@
     }
     .cell_salt_image_text .cell_salt_image_text_right {
         max-width: calc(58.333333333333336% - 40.0px);
+      height:auto;
     }
     .cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .cell-product_quantity .cell-product_break {
         max-width: calc(66.66666666666667% - 10.0px);
