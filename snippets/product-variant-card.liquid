@@ -108,10 +108,9 @@
             	<h2 class="prodcut-title">{{ product_card_product.title | escape }}</h2>
                 <p class="prodcut-desc">{{ dec | escape | truncatewords: 10 }}</p>
             </div>
-            
+            {% endcomment %}
 
             <div class="product-price-badge">{{ product_card_product.price |money }}</div>
-{% endcomment %}
             {% endif %}
               <img
               srcset="{%- if product_card_product.image.width >= 165 -%}{{ product_card_product.image | img_url: '165x' }} 165w,{%- endif -%}
