@@ -10,7 +10,7 @@
            <ul class="ordered-products">
             {%- for line_item in order.line_items -%}
               <li>
-                <p><a href="{{ line_item.url }}">{{ line_item.title }}</a><br/><img src="{{ line_item.image | product_img_url }}"></p>
+                  <p><a href="{{ line_item.url }}">{{ line_item.title }}</a><br/><img src="{{ line_item.image | product_img_url }}"></p>
               </li>
             {% endfor %}
            </ul>
