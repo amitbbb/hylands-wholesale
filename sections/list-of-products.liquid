@@ -1,5 +1,6 @@
 <div class="products-single-add">
   {% assign collection = collections["all"] %}
+  <h2>{{ customer.orders.size }}</h2>
   <ul>
   {% for product in collection.products %}
   <li>{{ product.title }}</li>
