@@ -1,4 +1,10 @@
 <div class="products-single-add">
+  {% assign collection = collections["all"] %}
+  <ul>
+  {% for product in collection.products %}
+  <li>{{ product.title }}</li>
+  {% endfor %}
+  </ul>
 </div>
 {% schema %}
   {
