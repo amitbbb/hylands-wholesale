@@ -818,7 +818,9 @@
   border: 1px solid #1b4388;
 }
 .customer.register.custom-register form input+label,
-.customer.login.custom-account form input+label {
+.customer.login.custom-account form input+label,
+.customer.register.custom-register form#create_customer+div
+{
     font-family: 'poppins-regular';
 }
 
