@@ -826,7 +826,9 @@
 div#shopify-section-header {
     z-index: 99999;
 }
-
+.cart .cart__footer-wrapper div#main-cart-footer .cart__footer .cart__dynamic-checkout-buttons.additional-checkout-buttons {
+    display: none;
+}
 
 /*  Responsive  */
 @media screen and (min-width: 1920px) {
