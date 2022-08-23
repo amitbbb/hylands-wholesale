@@ -823,7 +823,9 @@
 {
     font-family: 'poppins-regular';
 }
-
+body.page.contact.new .hero-marquee .marquee:hover {
+    animation-play-state: running;
+}
 
 /*  Responsive  */
 @media screen and (min-width: 1920px) {
