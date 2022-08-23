@@ -1,6 +1,25 @@
 <div class="products-single-add">
   {% assign collection = collections["all"] %}
-  <h2>{{ customer.orders.size }}</h2>
+  {% if customer %}
+    {% if customer.orders.size > 0 %}
+      <h2>{{ customer.orders.size }}</h2>
+      <ul class="list-order">
+      {%- for order in customer.orders -%}
+         <li>
+           <p>{{ order.created_at | time_tag: format: 'date' }} -> {{ order.fulfillment_status_label }}</p>
+           <ul class="ordered-products">
+            {%- for line_item in order.line_items -%}
+              <li>
+                <p><a href="{{ line_item.url }}">{{ line_item.title }}</a></p>
+              </li>
+            {% endfor %}
+           </ul>
+         </li>
+        
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endif %}
   <ul>
   {% for product in collection.products %}
   <li>{{ product.title }}</li>
