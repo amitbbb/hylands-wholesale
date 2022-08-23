@@ -817,6 +817,9 @@
   background-color: #1b4388;
   border: 1px solid #1b4388;
 }
+.customer.login.custom-account form input+label {
+    font-family: 'poppins-regular';
+}
 
 
 /*  Responsive  */
