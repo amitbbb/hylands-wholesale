@@ -2317,6 +2317,7 @@ body {
       position: unset!important;
       height: 60vh!important;
       object-fit: cover;
+      border-radius: 10px;
       @media screen and (max-width: 1367px) {
         height: 50vh!important;
       }
