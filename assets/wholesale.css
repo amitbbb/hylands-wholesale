@@ -1420,6 +1420,9 @@
             padding-left: 19px;
             padding-right: 19px;
         }
+  .productPageWidth .productTitleWrap .product__text {
+    margin-top: 22px;
+}
 }
 
 @media (max-width: 749px){
