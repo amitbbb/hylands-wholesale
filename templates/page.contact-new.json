@@ -31,11 +31,17 @@
         "email": "Email Us",
         "email1": "care@hylands.com"
       }
+    },
+    "list-of-products": {
+      "type": "list-of-products",
+      "settings": {
+      }
     }
   },
   "order": [
     "1659702663b3ca9200",
     "1659703342e3be8962",
-    "1659705174ada1c2dc"
+    "1659705174ada1c2dc",
+    "list-of-products"
   ]
 }
