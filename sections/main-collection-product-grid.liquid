@@ -195,6 +195,17 @@
 </div>
 </div>
 
+<ul id="product-list-json">
+  {%- paginate collection.products by 50 -%}
+  {% for product in collection.products %}
+    <li data-pid="{{ product.id }}"><script id="product-{{ product.id }}-json" type="application/json">{{ product | json }}</script></li>
+  {% endfor %}
+  {% if paginate.next %}
+      <li class="loadNext" data-next-url="{{ paginate.next.url }}" data-collection-url="https://hylands.com/collections/all?page={{ current_page | plus: 1 }}" data-next="{{ current_page | plus: 1 }}">Load More</li>
+  {% endif %}
+  {% endpaginate %}
+</ul>
+
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
