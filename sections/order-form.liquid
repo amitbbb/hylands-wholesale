@@ -1,12 +1,115 @@
+<h2>Order Form</h2>
+{% comment %}
+<div class="semi-collection">
+  <div id="ProductGridContainer">
+    <div class="page-width">
+      
+<ul id="product-grid" data-id="template--14576296656966__product-grid" class="grid grid--2-col 
+  negative-margin product-grid grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max">
+  
+  {% assign collection = collections['all'] %}
+  {%- paginate collection.products by 50 -%}
+  {% for product in collection.products %}
+    <li class="grid__item">
+    {% render 'product-card',
+                product_card_product: product,
+                media_size: 'adapt',
+                show_secondary_image: false,
+                add_image_padding: false,
+                show_vendor: false,
+                show_image_outline: false,
+                show_rating: false,
+              	show_desc: 'Yes'
+              %}
+    </li>
+  {% endfor %}
+    {% if paginate.next %}
+      <li class="loadNext" data-url="{{ paginate.next.url }}">Load More</li>
+    {% endif %}
+    {% endpaginate %}
+    
+</ul>
+
+    </div>
+  </div>
+</div>
+{% endcomment %}
+
+<ul class="product-list-form">
+  {% assign collection = collections['all'] %}
+  {%- paginate collection.products by 50 -%}
+  {% for product in collection.products %}
+    <li class="jsonAdded" data-pid="{{ product.id }}">{{ product.title }}
+    <script id="product-{{ product.id }}-json" type="application/json">
+      {{ product | json }}
+    </script>
+    </li>
+  {% endfor %}
+  {% if paginate.next %}
+      <li class="loadNext" data-next-url="{{ paginate.next.url }}" data-collection-url="https://hylands.com/collections/all?page={{ current_page | plus: 1 }}" data-next="{{ current_page | plus: 1 }}">Load More</li>
+  {% endif %}
+  {% endpaginate %}
+</ul>
+<div id="load-results" style="display:none;">
+  
+</div>
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Order Form",
     "settings": []
   }
 {% endschema %}
 
 {% stylesheet %}
+.product-list-form {
+  height: 350px;
+  overflow: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.product-list-form >li {
+  list-style-type: none;
+}
+  li.loadNext {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 {% endstylesheet %}
 
-{% javascript %}
+{% javascript %} 
+$(function(){
+  $( "#load-results" ).load( "https://hylands.com/collections/all?page=1 #product-list-json", function( response, status, xhr ) {
+    if ( status == "error" ) {
+      //var msg = "Sorry but there was an error: ";
+      //$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+      console.warn("problem occurs while fetching the products");
+    }
+    else {
+      $("#load-results ul li").each(function(){
+        let jsonData = $(this).children("script").html();
+        jsonData = JSON.parse(jsonData);
+        console.log(jsonData);
+      });
+    }
+  });
+
+  /*$.ajax({
+      url: 'https://hylands.com/collections/all?page=1 product-list-json',
+      method: 'GET',
+      success: function(data) {
+          console.log(data);
+          //let jsonData = JSON.parse(data);
+          //console.log(jsonData);
+          let html2 = ``;
+          $.each(jsonData, function (i, obj) {
+              //console.log(obj);
+              //html2 += `<li data-dc="${obj.replace("\'","")}">${obj}</li>`;
+          });
+          
+      }
+  });*/
+});
 {% endjavascript %}
