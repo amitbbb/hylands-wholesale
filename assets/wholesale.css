@@ -823,6 +823,9 @@
 {
     font-family: 'poppins-regular';
 }
+div#shopify-section-header {
+    z-index: 99999;
+}
 
 
 /*  Responsive  */
