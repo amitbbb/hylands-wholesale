@@ -1493,7 +1493,7 @@
     font-size: 42px;
     line-height: 1.19em;
     letter-spacing: 0.84px;
-    font-size: 'Gotham';
+    font-family: 'Gotham';
     margin: 0;
 }
 .card-left p{
