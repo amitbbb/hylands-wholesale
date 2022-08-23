@@ -35,7 +35,7 @@
 </div>
 {% endcomment %}
 
-<ul class="product-list-form">
+<ul class="product-list-form"> 
   {% assign collection = collections['all'] %}
   {%- paginate collection.products by 50 -%}
   {% for product in collection.products %}
