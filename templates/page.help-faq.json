@@ -86,6 +86,62 @@
             "acc_heading": "What is Lactose NF?",
             "acc_text": "Lactose NF is a sugar derived from milk which is free of any milk proteins (whey or casein.) It is an inactive ingredient in Hyland's tablets."
           }
+        },
+        "e5df810d-3b85-4d51-b52a-fd51d409c5f1": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "Can I dissolve your tablets in water? What about milk or juice?",
+            "acc_text": "Yes, you can dissolve our tablets in water. You should dissolve one dose at a time and take it as indicated on the label. We do not recommend dissolving our tablets in milk or juice."
+          }
+        },
+        "99331c7a-c4f3-428a-8d90-ea7f55176278": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "How long does it take for OTC products to start working?",
+            "acc_text": "It depends on the product and your condition.  In general, with our OTC products you will experience relief of symptoms within 1-5 days when used as directed."
+          }
+        },
+        "72285b1e-7717-43ad-8a34-a701b1326b1c": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "What is the maximum dose of your products?",
+            "acc_text": "Please follow dosing directions on the product label.  You can also visit the product page on our website for more specific product information."
+          }
+        },
+        "ec6a5cd4-422d-40b1-86a0-a522ee08fce5": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "Where can I buy Hyland's products?",
+            "acc_text": "Hyland's products are available on Hylands.com, at chain drug stores and mass merchandisers nationwide, and local health food stores and pharmacies. Check a specific product page for information where to buy."
+          }
+        },
+        "cfc8619f-241d-4b3e-ab0e-624b2ab37bb2": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "Can I take Hyland's products if I am pregnant or nursing?",
+            "acc_text": "The FDA requires that all OTC product manufacturers tell consumers to check with their physician before using any OTC products if they are pregnant or nursing\/breastfeeding. No formal studies have been conducted to test the safety of dietary supplements or homeopathic products in pregnant or nursing\/breastfeeding women."
+          }
+        },
+        "1fcb76b8-7b06-4299-8fc6-8ba18ae6a9a8": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "My child ingested more than the recommended amount, will they need medical attention?",
+            "acc_text": "Our products have a wide margin of safety; however, if you have concerns please contact your healthcare provider or the Poison Control Center at 1-800-222-1222.  If there's a medical emergency, please call 911."
+          }
+        },
+        "9af030d7-7be0-42c8-b2ce-bd7d0c9a2dd8": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "My package sat outside in the cold\/heat for a day. Is it still good?",
+            "acc_text": "It should be ok, however if you notice a change in product's appearance, you should replace it.  Our products should be stored capped, in a cool and dry place, away from excessive temperatures or moisture."
+          }
+        },
+        "c6ae8884-efe9-4472-b0a3-8192826c649d": {
+          "type": "accordion",
+          "settings": {
+            "acc_heading": "Are homeopathic products regulated or FDA approved?",
+            "acc_text": "Yes, homeopathic products are regulated as OTC drugs by the FDA and Hyland's manufacturing facilities are inspected by FDA for compliance with Good Manufacturing Practices (cGMP). The claims for our products are based on traditional homeopathic practice, they are not reviewed by the FDA or FDA approved."
+          }
         }
       },
       "block_order": [
@@ -94,7 +150,15 @@
         "e3cdca8b-ff31-4852-a0ce-599228c30f08",
         "929bfeb9-d1ab-4d75-a60a-0dea81bedc97",
         "589a5f54-1d00-4f62-9641-41e8d09a7c4f",
-        "b6a6036f-b25a-4ae3-a7af-8af5a73bf4a6"
+        "b6a6036f-b25a-4ae3-a7af-8af5a73bf4a6",
+        "e5df810d-3b85-4d51-b52a-fd51d409c5f1",
+        "99331c7a-c4f3-428a-8d90-ea7f55176278",
+        "72285b1e-7717-43ad-8a34-a701b1326b1c",
+        "ec6a5cd4-422d-40b1-86a0-a522ee08fce5",
+        "cfc8619f-241d-4b3e-ab0e-624b2ab37bb2",
+        "1fcb76b8-7b06-4299-8fc6-8ba18ae6a9a8",
+        "9af030d7-7be0-42c8-b2ce-bd7d0c9a2dd8",
+        "c6ae8884-efe9-4472-b0a3-8192826c649d"
       ],
       "settings": {
         "sec_head": "General"
