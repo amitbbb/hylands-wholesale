@@ -609,6 +609,8 @@
     font-family: 'Gotham';
     margin: 0;
     margin-bottom: 52px;
+  line-height: 1.24;
+  letter-spacing: normal;
 }
 .about-history-templete .about_text_box .about_text_right p:last-of-type,
 .about-history-templete .about_text_box .about_text_right p:first-of-type {
