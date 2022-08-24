@@ -837,6 +837,9 @@ div#shopify-section-header {
 .about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper {
     margin: 10px 0;
 }
+.desc-wrapper .collection-hero__description span {
+    font-family: poppins-regular;
+}
 
 
 /*  Responsive  */
