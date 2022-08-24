@@ -834,6 +834,9 @@ div#shopify-section-header {
 .template-product-type2 .information-tabs {
     display: none;
 }
+.about-landing-pages .about-landing-pages-main .about-landing-pages-wrapper {
+    margin: 10px 0;
+}
 
 
 /*  Responsive  */
