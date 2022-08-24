@@ -1187,7 +1187,9 @@ div#shopify-section-header {
 .cell-tab_main .cell-tab_main_left .box .acc_txt span {
     font-size: 12px;
 }
-
+.about-history-templete .about_slider_box .about_image img {
+    height: 45vw;
+}
 }
 
 
