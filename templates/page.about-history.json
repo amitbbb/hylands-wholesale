@@ -105,7 +105,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/download-_1.jpg",
             "btn_label": "Shop For Babies",
-            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/hylands-baby"
           }
         },
         "d1315767-062b-4825-90d3-4fea7d991194": {
@@ -113,7 +113,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/download-_2.jpg",
             "btn_label": "Shop For Kids",
-            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/hylands-4-kids"
           }
         },
         "828f6115-3325-4c14-80c0-9289e76ac61f": {
@@ -121,7 +121,7 @@
           "settings": {
             "prod_img": "shopify:\/\/shop_images\/download-_3.jpg",
             "btn_label": "Shop For Adults",
-            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/all"
+            "btn_url": "https:\/\/wholesale.hylands.com\/collections\/hylands-4-kids"
           }
         }
       },
