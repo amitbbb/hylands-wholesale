@@ -1431,6 +1431,13 @@ div#shopify-section-header {
   .productPageWidth .productTitleWrap .product__text {
     margin-top: 22px;
 }
+  .cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .product_varie p {
+    margin: 20px 0;
+}
+.cel-single-product-main .cell-tablet-products .product-card .product-card-description.cell-single-product .product_varie {
+    margin: 20px 0;
+}
+  
 }
 
 @media (max-width: 749px){
