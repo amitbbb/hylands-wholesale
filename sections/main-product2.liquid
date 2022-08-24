@@ -149,9 +149,9 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
-                
+                {% comment %}
                 {{ product.description }}
-                
+                {% endcomment %}
               </div>
             {%- endif -%}
           {%- when 'custom_liquid' -%}
