@@ -4,60 +4,77 @@
     "main": {
       "type": "main-product2",
       "blocks": {
-        "8ae0e202-8e02-4274-abf8-0b029c5000f8": {
+        "beee435b-85be-4f7c-b8f8-3722736aa02f": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "Text block{{ product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "81701fc3-2824-4448-8480-bfe2ee04b3cc": {
+        "04096174-3e97-4dbf-8cd0-11befb44c35c": {
           "type": "title",
           "settings": {
           }
         },
-        "b1292132-4286-42ef-9b42-a2d695c5895c": {
+        "5931b1f3-d026-4c39-a34e-1c9c4cf0c820": {
           "type": "price",
           "settings": {
           }
         },
-        "f2da6728-dc36-45ce-9a91-2d5ffd50df96": {
+        "cf77f130-c2b0-43a6-b4be-143f20444240": {
           "type": "review",
           "settings": {
           }
         },
-        "d5a0ea5a-7301-4832-89e7-92e1266f7b3d": {
+        "f8a56500-88e1-45b7-a5d1-7e23fe394449": {
           "type": "description",
           "settings": {
           }
         },
-        "205817fa-1fca-4f97-82f1-0df7edce2911": {
+        "2295ec32-ba91-4a32-a66c-c50d8b9df6f9": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "e8873814-b58f-4ecc-9e37-874ad1553f10": {
+        "d30610f3-08fc-4a77-afb2-db5834b768af": {
+          "type": "subscription_text",
+          "settings": {
+            "heading": "MONTHLY SUBSCRIPTION BENEFITS",
+            "text": "<p>Free shipping for subscription orders over $25 (after discount applied)<\/p><p>Easy cancellation<\/p>"
+          }
+        },
+        "c7940269-5eb4-4890-be19-1252a2126b27": {
           "type": "quantity_selector",
           "settings": {
           }
         },
-        "722a77d3-31b1-4411-80ff-fb2e3035b6a1": {
+        "46a9ca92-fdd2-4057-be08-5a7d889b1899": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
+          }
+        },
+        "aeae8fb2-bdc8-4445-889b-dbc47d860672": {
+          "type": "store_locator",
+          "settings": {
+            "store_locator": "",
+            "url": "",
+            "exclude": ""
           }
         }
       },
       "block_order": [
-        "8ae0e202-8e02-4274-abf8-0b029c5000f8",
-        "81701fc3-2824-4448-8480-bfe2ee04b3cc",
-        "b1292132-4286-42ef-9b42-a2d695c5895c",
-        "f2da6728-dc36-45ce-9a91-2d5ffd50df96",
-        "d5a0ea5a-7301-4832-89e7-92e1266f7b3d",
-        "205817fa-1fca-4f97-82f1-0df7edce2911",
-        "e8873814-b58f-4ecc-9e37-874ad1553f10",
-        "722a77d3-31b1-4411-80ff-fb2e3035b6a1"
+        "beee435b-85be-4f7c-b8f8-3722736aa02f",
+        "04096174-3e97-4dbf-8cd0-11befb44c35c",
+        "5931b1f3-d026-4c39-a34e-1c9c4cf0c820",
+        "cf77f130-c2b0-43a6-b4be-143f20444240",
+        "f8a56500-88e1-45b7-a5d1-7e23fe394449",
+        "2295ec32-ba91-4a32-a66c-c50d8b9df6f9",
+        "d30610f3-08fc-4a77-afb2-db5834b768af",
+        "c7940269-5eb4-4890-be19-1252a2126b27",
+        "46a9ca92-fdd2-4057-be08-5a7d889b1899",
+        "aeae8fb2-bdc8-4445-889b-dbc47d860672"
       ],
       "settings": {
         "enable_sticky_info": true,
