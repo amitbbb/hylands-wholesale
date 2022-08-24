@@ -831,9 +831,6 @@ div#shopify-section-header {
 .cart .cart__footer-wrapper div#main-cart-footer .cart__footer .cart__dynamic-checkout-buttons.additional-checkout-buttons {
     display: none;
 }
-.product-type-2 +.information-tabs {
-    display: none;
-}
 
 
 
