@@ -95,10 +95,27 @@
       "type": "information-tabs",
       "settings": {
       }
+    },
+    "1634816721ad26a29d": {
+      "type": "apps",
+      "blocks": {
+        "4fd011f7-a71d-450b-826b-2a0574c6542b": {
+          "type": "shopify:\/\/apps\/advanced-product-descriptions\/blocks\/advanced-description\/cffc7d91-64c9-4f4d-88f8-8eb78b420747",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4fd011f7-a71d-450b-826b-2a0574c6542b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "information-tabs"
+    "information-tabs",
+    "1634816721ad26a29d"
   ]
 }
