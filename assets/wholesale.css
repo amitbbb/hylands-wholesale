@@ -1190,6 +1190,10 @@ div#shopify-section-header {
 .about-history-templete .about_slider_box .about_image img {
     height: 45vw;
 }
+  .about-history-templete .about_text_box .about_text_right {
+    padding-top: 0;
+}
+  
 }
 
 
