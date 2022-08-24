@@ -1084,6 +1084,7 @@ div#shopify-section-header {
 }
 .About-Image-With-Text .about-section-cards-wrapper .about_card-left, .About-Image-With-Text .about-section-cards-wrapper .about_card-right {
     max-width: 100%;
+    line-height: 0;
 }
 .About-Image-With-Text .about-section-cards-wrapper .about_card-left .about_left_main {
     padding: 50px 92px;
