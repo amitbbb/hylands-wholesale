@@ -93,7 +93,6 @@
     },
     "information-tabs": {
       "type": "information-tabs",
-      "disabled": true,
       "settings": {
       }
     },
