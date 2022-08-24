@@ -866,6 +866,12 @@ div#shopify-section-header {
     }
 
 }
+@media (max-width: 1600px){
+  body.collection .collection-hero .collection-hero__text-wrapper .collection-nav.collection-all, body.search .collection-hero .collection-hero__text-wrapper .collection-nav.collection-all {
+    position: relative;
+    left: -3%;
+}
+}
 
 @media screen and (max-width: 1440px) {
     .cell-tab_main .cell-tab_main_right {
