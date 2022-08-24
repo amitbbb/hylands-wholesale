@@ -976,7 +976,13 @@ div#shopify-section-header {
 .cell-salt-templete .hero-banner .hero-text-box p.banner__subheading {
     padding-right: 0px;
 }
-
+.about-history-templete .about_text_box .about_text_right h2 {
+    font-size: 33px;
+    margin: 0 0 52px;
+    line-height: 1.24;
+    letter-spacing: normal;
+}
+  
 }
 
 @media screen and (max-width: 991px) {
