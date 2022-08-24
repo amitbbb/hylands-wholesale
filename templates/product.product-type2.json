@@ -91,11 +91,6 @@
         "badgeText": "Sale"
       }
     },
-    "information-tabs": {
-      "type": "information-tabs",
-      "settings": {
-      }
-    },
     "ingredient-tags": {
       "type": "ingredient-tags",
       "blocks": {
@@ -798,7 +793,6 @@
   },
   "order": [
     "main",
-    "information-tabs",
     "ingredient-tags",
     "ingredient-tags2",
     "ingredient-tags3",
