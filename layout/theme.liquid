@@ -188,7 +188,7 @@ function OptanonWrapper() { }
     <!--End of Yotpo JavaScript-->
 </head>
 
-  <body class="gradient {{ request.page_type }} {{ page.title | 'downcase' }}">
+  <body class="gradient {{ request.page_type }} {{ page.title | 'downcase' }} template-{{template.name }}">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3M7ZN7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
