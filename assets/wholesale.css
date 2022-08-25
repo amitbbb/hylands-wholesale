@@ -908,7 +908,13 @@ div#shopify-section-header {
     position: relative;
     left: 0;
 }
+  body.collection .collection-hero .collection-hero__text-wrapper .collection-hero__title, body.search .collection-hero .collection-hero__text-wrapper .collection-hero__title {
+    font-size: 23px;
 }
+  
+}
+
+
 @media screen and (max-width: 1199px) {
     .sleep-products-cards{
         padding-left: 50px;
