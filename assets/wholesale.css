@@ -840,6 +840,17 @@ div#shopify-section-header {
 .desc-wrapper .collection-hero__description span {
     font-family: poppins-regular;
 }
+.collection .collection-grid-section .main-grid-wrap.active .desc-wrapper.desktop {
+    max-width: 100%;
+    width: 100%;
+    order: 1;
+}
+.collection .collection-grid-section .main-grid-wrap.active .filter-wrapper {
+    order: 2;
+}
+.collection .collection-grid-section .main-grid-wrap.active div#ProductGridContainer {
+    order: 3;
+}
 
 
 /*  Responsive  */
