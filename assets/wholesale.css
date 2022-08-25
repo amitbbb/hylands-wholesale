@@ -873,7 +873,7 @@ div#shopify-section-header {
 
 }
 @media (max-width: 1600px){
-  body.collection .collection-hero .collection-hero__text-wrapper .collection-nav.collection-all, body.search .collection-hero .collection-hero__text-wrapper .collection-nav.collection-all {
+  body.collection .collection-hero .collection-hero__text-wrapper .collection-nav {
     position: relative;
     left: -3%;
 }
