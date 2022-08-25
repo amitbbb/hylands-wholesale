@@ -67,7 +67,6 @@
         <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
       {%- endif -%} 
 
-          {% comment %}
         <form action="{{ routes.search_url }}" method="get" role="search" class="search">
           <div class="field">
             <input
@@ -113,33 +112,6 @@
             </button>
           </div>
         </form>
-
-        {% endcomment %}
-
-              <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-              <div class="field">
-                <input class="search__input field__input" 
-                       id="Search-In-Modal"
-                       type="search"
-                       name="q"
-                       value=""
-                       placeholder="Search ..." 
-                        autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" 
-                       >
-                
-                	<button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                  	<img src="{{ "Search.svg" | asset_url }}" alt="Search">
-                  	{% comment %}
-                  	  <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                    	<use href="#icon-search">
-                      </svg>
-                    {% endcomment %}
-                  	</button> 
-                  </div>
-            </form>
-<div class="searchResultWrapper">
-              </div>
-          
       {%- if settings.predictive_search_enabled -%}
         </predictive-search>
       {%- endif -%} 
