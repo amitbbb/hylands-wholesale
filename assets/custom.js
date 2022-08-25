@@ -993,7 +993,7 @@ var incrementMinus = buttonMinus.click(function() {
 /********* search filter **************/
 
 
-function customSort(sortValue) {
+function searchsort(sortValue) {
   let collectionUrl = location.href+"&sort_by="+sortValue;
 
   
@@ -1021,7 +1021,7 @@ $("body").on("click", ".custom-select li", function(){
   	var selected_val = $(this).data('value');
 
   $('.sel-text').text(selected);
-   customSort(selected_val);
+   searchsort(selected_val);
 	//$('#SortBy').val(selected_val);
   	
 	//var elem = document.getElementById('SortBy');
