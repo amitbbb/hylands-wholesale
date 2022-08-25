@@ -913,7 +913,12 @@ div#shopify-section-header {
 }
   
 }
-
+@media (max-width: 1280px){
+body.collection .collection-hero .collection-hero__text-wrapper .collection-hero__title, body.search .collection-hero .collection-hero__text-wrapper .collection-hero__title {
+    font-size: 20px;
+}
+  
+}
 
 @media screen and (max-width: 1199px) {
     .sleep-products-cards{
