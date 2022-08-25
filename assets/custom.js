@@ -992,11 +992,13 @@ var incrementMinus = buttonMinus.click(function() {
 
 /********* search filter **************/
 
+
 function customSort(sortValue) {
-  let searchurl = location.href+"&sort_by="+sortValue;
-   
+  let collectionUrl = location.href+"&sort_by="+sortValue;
+
+  
   $.get({
-        url: searchurl,
+        url: collectionUrl,
         success: function (data) {
             var newProductsWrapper = $(data).find(".template-search__results #product-grid");
             var newProductsHtml = newProductsWrapper.html();
@@ -1014,13 +1016,14 @@ function customSort(sortValue) {
 }  
 
 
-
 $("body").on("click", ".custom-select li", function(){
 	var selected = $(this).children().text();
   	var selected_val = $(this).data('value');
 
   $('.sel-text').text(selected);
    customSort(selected_val);
-
+	//$('#SortBy').val(selected_val);
+  	
+	//var elem = document.getElementById('SortBy');
+      //elem.dispatchEvent(new Event("change"));
 });
-  
