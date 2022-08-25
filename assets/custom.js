@@ -1021,9 +1021,6 @@ $("body").on("click", ".custom-select li", function(){
 
   $('.sel-text').text(selected);
    customSort(selected_val);
-	//$('#SortBy').val(selected_val);
-  	
-	//var elem = document.getElementById('SortBy');
-      //elem.dispatchEvent(new Event("change"));
+
 });
   
