@@ -989,3 +989,41 @@ var incrementMinus = buttonMinus.click(function() {
 		$n.val(amount-1);
 	}
 });
+
+/********* search filter **************/
+
+function customSort(sortValue) {
+  let searchurl = location.href+"&sort_by="+sortValue;
+   
+  $.get({
+        url: searchurl,
+        success: function (data) {
+            var newProductsWrapper = $(data).find(".template-search__results #product-grid");
+            var newProductsHtml = newProductsWrapper.html();
+            $('.template-search__results #product-grid').html(newProductsHtml);
+
+            var newItemCount = newProductsWrapper.attr('data-products-count');
+            $('.js-product-grid__count').text(newItemCount);
+            history.pushState({
+                page: collectionUrl
+            }, null, collectionUrl);
+
+            $('.template-search__results #product-grid').removeClass('ajax-loading');
+        }
+    });
+}  
+
+
+
+$("body").on("click", ".custom-select li", function(){
+	var selected = $(this).children().text();
+  	var selected_val = $(this).data('value');
+
+  $('.sel-text').text(selected);
+   customSort(selected_val);
+	//$('#SortBy').val(selected_val);
+  	
+	//var elem = document.getElementById('SortBy');
+      //elem.dispatchEvent(new Event("change"));
+});
+  
