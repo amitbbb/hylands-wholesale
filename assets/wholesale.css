@@ -927,6 +927,13 @@ div#shopify-section-header {
         padding-right: 50px;
     }
 }
+@media screen and (max-width: 1244px) {
+.desc-wrapper .collection-hero__description,
+  body.collection .collection-hero .collection-hero__text-wrapper .collection-hero__title, body.search .collection-hero .collection-hero__text-wrapper .collection-hero__title {
+    font-size: 16px;
+}
+  
+}
 
 @media (max-width: 1024px){
     .cell-salt-templete .hero-banner .hero-text-box h1 {
@@ -994,10 +1001,7 @@ div#shopify-section-header {
 .about-history-templete .about_text_box .about_text_right h2 {
     font-size: 33px;
 }
-  .desc-wrapper .collection-hero__description,
-  body.collection .collection-hero .collection-hero__text-wrapper .collection-hero__title, body.search .collection-hero .collection-hero__text-wrapper .collection-hero__title {
-    font-size: 16px;
-}
+  
 }
 
 @media screen and (max-width: 991px) {
