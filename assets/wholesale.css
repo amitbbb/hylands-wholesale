@@ -851,6 +851,22 @@ div#shopify-section-header {
 .collection .collection-grid-section .main-grid-wrap.active div#ProductGridContainer {
     order: 3;
 }
+.template-search .template-search__search button.search_template_button {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: currentColor;
+    cursor: pointer;
+    display: flex;
+    height: 4.4rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.4rem;
+}
 
 
 /*  Responsive  */
