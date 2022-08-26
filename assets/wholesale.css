@@ -1251,6 +1251,7 @@ div#shopify-section-header {
 }
 body.collection .collection-hero .collection-hero__text-wrapper .collection-nav {
      left: 50%;
+     margin-top: 20px;
 }
   
 }
