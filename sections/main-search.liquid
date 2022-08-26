@@ -68,7 +68,7 @@
       {%- endif -%} 
         <form action="{{ routes.search_url }}" method="get" role="search" class="search">
           <div class="field">
-           {% comment %}
+         
             <input
               class="search__input field__input"
               id="Search-In-Template"
@@ -89,23 +89,7 @@
                 spellcheck="false"
               {%- endif -%}
             >
-            {% endcomment %}
-                            <input
-                  type="search"
-                  name="q"
-                  value="{{ search.terms | escape }}"
-                  placeholder="{{ 'general.search.placeholder' | t }}"
-                  role="combobox"
-                  aria-autocomplete="list"
-                  aria-owns="predictive-search-results"
-                  aria-expanded="false"
-                  aria-label="{{ 'general.search.placeholder' | t }}"
-                  aria-haspopup="listbox"
-                  class="search-form__input"
-                  data-search-page-predictive-search-input
-                  data-base-url="{{ routes.search_url }}"
-                />
-
+                         
             
             <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
        <input name="options[prefix]" type="hidden" value="last">
