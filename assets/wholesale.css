@@ -947,7 +947,10 @@ div#shopify-section-header {
 }
 }
 @media screen and (max-width: 1325px) {
-
+body.collection .collection-hero .collection-hero__text-wrapper .collection-nav ul, body.search .collection-hero .collection-hero__text-wrapper .collection-nav ul {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 }
 
 
