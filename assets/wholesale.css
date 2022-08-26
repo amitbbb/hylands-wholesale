@@ -1245,6 +1245,9 @@ div#shopify-section-header {
   .about-history-templete .about_text_box .about_text_right {
     padding-top: 0;
 }
+body.collection .collection-hero .collection-hero__text-wrapper .collection-nav {
+     left: 50%;
+}
   
 }
 
