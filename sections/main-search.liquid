@@ -106,7 +106,7 @@
                   data-base-url="{{ routes.search_url }}"
                 />
 
-            <input type="hidden" name="options[prefix]" value="last" aria-hidden="true" />
+            
             <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
        <input name="options[prefix]" type="hidden" value="last">
        
@@ -122,12 +122,20 @@
   
               <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span> 
             {%- endif -%}
+{% comment %}
                 
             <button type="submit" class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
               <svg class="icon icon-search">
                 <use xlink:href="#icon-search">
               </svg>
             </button>
+            {% endcomment %}
+
+            <button type="submit">search</button>
+
+                <div class="predictive-search-wrapper" data-predictive-search-mount="default"></div>
+
+                
           </div>
         </form>
 
