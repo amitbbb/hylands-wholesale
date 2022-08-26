@@ -1028,6 +1028,10 @@ div#shopify-section-header {
 .about-history-templete .about_text_box .about_text_right h2 {
     font-size: 33px;
 }
+  .collection .collection-grid-section .main-grid-wrap.active .desc-wrapper.desktop .collection-hero__description.rte {
+    max-width: 65%;
+    width: 65%;
+}
   
 }
 
