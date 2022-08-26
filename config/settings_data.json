@@ -24,7 +24,7 @@
             "type": "announcement",
             "settings": {
               "text": "Orders $25+ eligible for free shipping",
-              "text2": "Sign up for 20% off!",
+              "text2": "",
               "color_scheme": "accent-2",
               "link": "#",
               "link2": ""
