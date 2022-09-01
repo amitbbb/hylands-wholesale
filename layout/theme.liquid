@@ -42,11 +42,7 @@ function OptanonWrapper() { }
       <link rel="canonical" href="{{ url2 }}{{ collection.url }}" />
     {% endif %}
     {% if request.page_type =="product" %}
-      {% if collection %}
-        <link rel="canonical" href="{{ url2 }}{{ product.url | within: collection}}" />
-      {% else %}
       <link rel="canonical" href="{{ url2 }}{{ product.url }}" />
-      {% endif %}
     {% endif %}
     {% if request.page_type =="page" %}
       {% if page.metafields.optional.canonical != blank %}
