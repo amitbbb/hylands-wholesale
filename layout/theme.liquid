@@ -33,7 +33,30 @@ function OptanonWrapper() { }
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+
+    {% assign url2 = "https://hylands.com" %}
+    {% if request.page_type =="index" %}
+      <link rel="canonical" href="{{ url2 }}/" />
+    {% endif %}
+    {% if request.page_type =="collection" %}
+      <link rel="canonical" href="{{ url2 }}{{ collection.url }}" />
+    {% endif %}
+    {% if request.page_type =="product" %}
+      {% if collection %}
+        <link rel="canonical" href="{{ url2 }}{{ product.url | within: collection}}" />
+      {% else %}
+      <link rel="canonical" href="{{ url2 }}{{ product.url }}" />
+      {% endif %}
+    {% endif %}
+    {% if request.page_type =="page" %}
+      {% if page.metafields.optional.canonical != blank %}
+        <link rel="canonical" href="{{ page.metafields.optional.canonical }}" />
+      {% endif %}
+    {% endif %}
+
+  {% comment %}
     <link rel="canonical" href="{{ canonical_url }}">
+  {% endcomment %}
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     {%- if settings.favicon != blank -%}
