@@ -51,6 +51,8 @@ function OptanonWrapper() { }
     {% if request.page_type =="page" %}
       {% if page.metafields.optional.canonical != blank %}
         <link rel="canonical" href="{{ page.metafields.optional.canonical }}" />
+        {% else %}
+        <link rel="canonical" href="{{ url2 }}{{ page.url }}" />
       {% endif %}
     {% endif %}
 
