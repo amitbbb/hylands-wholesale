@@ -23,7 +23,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Orders $35+ eligible for free shipping",
+              "text": "Orders $100 eligible for free shipping",
               "text2": "",
               "color_scheme": "accent-2",
               "link": "#",
