@@ -13,7 +13,7 @@
     <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
     <ul class="grid grid--2-col product-grid{% if recommendations.products_count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ recommendations.products_count }}-col-tablet{% endif %} slick-grid" role="list">
       {% for recommendation in recommendations.products %}
-        <li class="grid__item {%- if recommendation.available == false or recommendation.tags contains "out_of_stock" -%} out-of-stock{% endif %}">
+        <li class="grid__item {% if recommendation.available == false or recommendation.tags contains "out_of_stock" %} out-of-stock{% endif %}">
           {% for tag in recommendation.tags %}
           {% assign curTag = tag | downcase %}
           {% if curTag == "new" %}
