@@ -394,9 +394,10 @@
                       type="submit"
                       name="add"
                       class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %} otButton"
-                    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                    {% if product.selected_or_first_available_variant.available == false or product.tags contains "out_of_stock" %}disabled{% endif %}
                     >
                         <span>
+                          {% unless product.tags contains "out_of_stock" %}
                           {%- if product.selected_or_first_available_variant.available -%}
                           {% comment %}
                             {{ 'products.product.add_to_cart' | t }}
@@ -405,6 +406,9 @@
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
+                    {% else %}
+                            {{ 'products.product.sold_out' | t }}
+                    {% endunless %}
                         </span>
                         <div class="loading-overlay__spinner hidden">
                           <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
