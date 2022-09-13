@@ -28,6 +28,9 @@
     {% for block in section.blocks %}
         {% assign product = all_products[block.settings.product_item] %}
         <div class="product-card">
+          {% if product.tags contains "out_of_stock" %}
+          <div class="card__badge"><span class="badge bg-blue">Sold out</span></div>
+          {% endif %}
           <a href="{{ product.url }}">
             <img src="{{ product.featured_image | img_url: 'master' }}"  border="0" />
             <h4>{{ product.title }}</h4>
