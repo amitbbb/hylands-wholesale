@@ -182,7 +182,7 @@
       {%- endif -%}
 
       <div class="card__badge desktop-show">
-        {%- if product_card_product.available == false -%}
+        {%- if product_card_product.available == false or product_card_product.tags contains "out_of_stock" -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
           <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
@@ -195,7 +195,7 @@
         {%- endif -%}
       </div>
       <div class="card__badge mobile-show">
-        {%- if product_card_product.available == false -%}
+        {%- if product_card_product.available == false or product_card_product.tags contains "out_of_stock" -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
           <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
