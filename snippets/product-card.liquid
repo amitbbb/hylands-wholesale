@@ -16,7 +16,7 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-<div class="card-wrapper {%- if product.available == false or product.tags contains "out_of_stock" -%}out-of-stock{% endif %}">
+<div class="card-wrapper">
   <div class="card-information">
     <div class="card-information__wrapper btn-product-card">
       {%- if show_vendor -%}
