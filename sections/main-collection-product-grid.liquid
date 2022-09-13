@@ -133,7 +133,7 @@
               
            {% else %}
            
-            <li class="grid__item {% if forloop.index > section.settings.products_per_page %}grid-inactive{% endif %}">
+            <li class="grid__item {% if forloop.index > section.settings.products_per_page %}grid-inactive{% endif %} {%- if product.available == false or product.tags contains "out_of_stock" -%}out-of-stock{% endif %}">
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
