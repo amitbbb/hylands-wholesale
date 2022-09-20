@@ -60,10 +60,13 @@
                 </noscript>
 				
                 <p class="js-cart-page-wholesale-error" style="font-size:12px"></p>
-                
+                {% if customer.tags contains "wholesale" %}
                 <button type="submit" id="checkout" class="cart__checkout-button button js-cart-page-checkout-btn" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                   {{ 'sections.cart.checkout' | t }}
                 </button>
+                {% else %}
+                  <div style="text-align: center;">Please sign in with your wholesale account.</div>
+                {% endif %}
               </div>
 
               {%- if additional_checkout_buttons -%}
