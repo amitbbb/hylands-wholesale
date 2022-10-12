@@ -761,7 +761,7 @@ if($('.yotpo-custom').length > 0) {
 
 
 /*Yotpo app*/
-/*
+
 if ($(window).width() >= 769) {
 $("body").on("mousedown", "div[aria-label='FreeTextCampaign'] .yotpo-campaign-switcher-wrapper", function(){
   console.log("clicked");
@@ -784,7 +784,7 @@ else{
   
 });
 }
-*/
+
 
 
 
