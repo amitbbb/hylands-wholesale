@@ -673,7 +673,7 @@
             "heading": "Paraben Free",
             "icon": "shopify:\/\/shop_images\/Paraben-Free_d1333588-76a6-4f7f-9995-8c1f50f1242a.png",
             "text_heading": "Paraben Free",
-            "tag_details": "<p>In the spirit of keeping our wellness products as clean as possible, the Hyland's range is paraben-free. We believe in the natural power of homeopathy so we don't add any synthetic preservatives to our formulas.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
+            "tag_details": "<p>In the spirit of keeping our wellness products as clean as possible, Hyland's products are made without parabens when possible. We believe in the power of natural active ingredients, so nearly all of our formulas are free of synthetic preservatives.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
           }
         },
         "f7214d3f-c5ed-4b0b-8190-ee27f8b7e523": {
@@ -684,6 +684,16 @@
             "icon": "shopify:\/\/shop_images\/Alcohol_Free.png",
             "text_heading": "",
             "tag_details": "<p>Alongside natural active ingredients, the formula is also alcohol free. Our pediatric cold and cough syrups are carefully created to be gentle and soothing in support of strong long-term health. Your family’s wellbeing is our priority and we are dedicated to providing safe and effective treatments.<\/p><p><\/p><p><em>Hover over each icon on the left to learn more about Hyland's promise.<\/em><\/p>"
+          }
+        },
+        "895e6e38-ea05-4678-af94-3d4450517297": {
+          "type": "tag-detsils",
+          "settings": {
+            "match_tag": "diet_hypoallergenic",
+            "heading": "Hypoallergenic",
+            "icon": "shopify:\/\/shop_images\/Allergen-Free_b2006bb7-7b3e-42ca-a659-9a87a99ca600.png",
+            "text_heading": "Hypoallergenic",
+            "tag_details": "<p>All of Hyland's products for human consumption are free from common allergens including milk proteins*, eggs, fish, shellfish, tree nuts, peanuts, wheat, and soybeans. We source our ingredients from around the world, and always with the highest standards. We craft our remedies with care and make sure to provide safe and healthy goods that supports every lifestyle and diet.<\/p>"
           }
         }
       },
@@ -698,7 +708,8 @@
         "68ce8d79-5fc4-4a93-82f5-56a5edce319d",
         "85e02fed-1d5e-423c-89be-814e6975ee46",
         "1c4fda6c-5f39-4fa9-9779-c0dbda915bf5",
-        "f7214d3f-c5ed-4b0b-8190-ee27f8b7e523"
+        "f7214d3f-c5ed-4b0b-8190-ee27f8b7e523",
+        "895e6e38-ea05-4678-af94-3d4450517297"
       ],
       "settings": {
         "heading": "Our promise"
